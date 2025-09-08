@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-900: hsl(30, 100%, 08%);
+  --color-primary-800: hsl(30, 100%, 18%);
+  --color-primary-700: hsl(30, 100%, 30%);
+  --color-ürimary-600: hsl(35, 100%, 42%);
+  --color-primary-500: hsl(40, 100%, 50%);
+  --color-primary-400: hsl(49, 100%, 60%);
+  --color-primary-300: hsl(55, 100%, 70%);
+  --color-primary-200: hsl(60, 100%, 80%);
+  --color-primary-100: hsl(60, 100%, 95%);
+}
