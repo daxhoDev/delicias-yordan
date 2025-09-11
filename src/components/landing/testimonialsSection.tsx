@@ -23,7 +23,7 @@ export default function TestimonialsSection(): React.ReactNode {
       <h2 className="text-amber-800 text-2xl font-bold">
         Qué opinan nuestros clientes
       </h2>
-      <div className="keen-slider max-w-180" ref={sliderRef}>
+      <div className="keen-slider w-95/100 max-w-180" ref={sliderRef}>
         <TestimonialCard />
         <TestimonialCard />
         <TestimonialCard />
