@@ -1,3 +1,5 @@
+import { MouseEventHandler } from "react";
+
 export interface ButtonProps {
   children: React.ReactNode;
   type: "primary" | "secondary";
@@ -10,4 +12,9 @@ export interface FeatureCardProps {
 
 export interface IconProps {
   size: string;
+}
+
+export interface SliderButtonProps {
+  direction: "left" | "right";
+  onClick?: MouseEventHandler;
 }

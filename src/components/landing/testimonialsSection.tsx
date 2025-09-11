@@ -2,7 +2,8 @@
 
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
-import TestimonialCard from "./testimonialCard";
+import TestimonialCard from "@/src/components/landing/testimonialCard";
+import SliderButton from "@/src/components/landing/sliderButton";
 
 export default function TestimonialsSection(): React.ReactNode {
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -27,6 +28,16 @@ export default function TestimonialsSection(): React.ReactNode {
         <TestimonialCard />
         <TestimonialCard />
         <TestimonialCard />
+      </div>
+      <div className="flex justify-center items-center gap-4">
+        <SliderButton
+          direction="left"
+          onClick={() => instanceRef.current?.prev()}
+        />
+        <SliderButton
+          direction="right"
+          onClick={() => instanceRef.current?.next()}
+        />
       </div>
     </section>
   );
