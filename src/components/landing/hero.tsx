@@ -1,6 +1,7 @@
 import Image from "next/image";
 import brandWhite from "@/public/brand-logo-white.png";
 import Button from "@/src/components/button";
+import Whatsapp from "@/src/icons/whatsapp";
 
 export default function Hero(): React.ReactNode {
   return (
@@ -23,7 +24,9 @@ export default function Hero(): React.ReactNode {
         </p>
       </div>
       <div className="z-10 flex flex-col md:flex-row gap-4 md:gap-12">
-        <Button type="primary">Contáctanos</Button>
+        <Button type="primary">
+          <Whatsapp size={"1.5rem"} /> Contáctanos
+        </Button>
         <Button type="secondary">Ver Ofertas</Button>
       </div>
     </section>

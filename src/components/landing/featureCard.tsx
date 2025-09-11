@@ -7,7 +7,7 @@ export default function FeatureCard({
 }: FeatureCardProps): React.ReactNode {
   return (
     <article
-      className={`bg-amber-50 flex flex-row gap-4 items-center justify-evenly py-4 px-4 w-95/100 sm:w-150 sm:rounded-lg sm:text-left shadow-lg ${
+      className={`bg-amber-50 flex flex-row gap-4 items-center justify-evenly py-4 sm:p-8 px-4 w-95/100 sm:w-150 sm:rounded-lg sm:text-left shadow-lg hover:-translate-y-2 hover:shadow-xl transition-all ${
         align == "right"
           ? "self-end rounded-l-lg text-right"
           : "self-start rounded-r-lg text-left"
@@ -15,7 +15,7 @@ export default function FeatureCard({
     >
       <div className="flex flex-col gap-4 max-w-7/10">
         <h3 className="font-bold text-amber-900">Lorem ipsum</h3>
-        <p className="font-medium text-amber-800 text-sm">
+        <p className="text-amber-800">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
           voluptate tempore maiores.
         </p>

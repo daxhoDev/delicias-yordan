@@ -12,7 +12,7 @@ export default function Button({
         type === "primary"
           ? "bg-amber-400 text-amber-950"
           : "bg-amber-700 text-amber-200"
-      } px-6 py-2 shadow-sm rounded-full font-bold cursor-pointer hover:scale-95 active:scale-95 transition-all ${
+      } flex gap-2 justify-center items-center px-6 py-2 shadow-sm rounded-full font-bold cursor-pointer hover:scale-95 active:scale-95 transition-all ${
         className ? className : ""
       }`}
     >
