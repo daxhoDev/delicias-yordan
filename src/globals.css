@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+/* @theme {
   --color-primary-900: hsl(30, 100%, 08%);
   --color-primary-800: hsl(30, 100%, 18%);
   --color-primary-700: hsl(30, 100%, 30%);
@@ -10,4 +10,14 @@
   --color-primary-300: hsl(55, 100%, 70%);
   --color-primary-200: hsl(60, 100%, 80%);
   --color-primary-100: hsl(60, 100%, 95%);
-}
+
+  --color-grey-900: hsl(10, 30%, 5%);
+  --color-grey-800: hsl(08, 08%, 13%);
+  --color-grey-700: hsl(15, 10%, 20%);
+  --color-grey-600: hsl(13, 10%, 28%);
+  --color-grey-500: hsl(15, 10%, 36%);
+  --color-grey-400: hsl(18, 10%, 44%);
+  --color-grey-300: hsl(23, 10%, 54%);
+  --color-grey-200: hsl(25, 20%, 80%);
+  --color-grey-100: hsl(30, 50%, 98%);
+} */

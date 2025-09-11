@@ -4,6 +4,7 @@ import "@/src/globals.css";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
+  fallback: ["sans-serif"],
 });
 
 export const metadata: Metadata = {
@@ -18,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`antialiased ${montserrat.className}`}>{children}</body>
+      <body className={`antialiased ${montserrat.className} sm:text-lg`}>
+        {children}
+      </body>
     </html>
   );
 }
