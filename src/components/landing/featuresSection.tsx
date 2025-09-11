@@ -2,7 +2,7 @@ import FeatureCard from "@/src/components/landing/featureCard";
 
 export default function FeaturesSection(): React.ReactNode {
   return (
-    <section className="flex flex-col items-center gap-12 text-center py-16 sm:px-16 bg-gradient-to-tl bg-amber-300">
+    <section className="flex flex-col items-center gap-12 text-center py-16 sm:px-16 bg-gradient-to-tl bg-amber-400">
       <h2 className="text-amber-800 text-2xl font-bold">
         Por qué contactarnos
       </h2>

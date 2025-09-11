@@ -3,14 +3,19 @@ import ProductCard from "../productCard";
 
 export default function ProductsSection(): React.ReactNode {
   return (
-    <section className="flex flex-col gap-12 items-center text-center py-16 bg-amber-200">
-      <h2 className="text-amber-700 text-2xl font-bold">Nuestras ofertas</h2>
-      <div className="flex flex-col sm:flex-row flex-wrap flex- gap-12 items-center justify-center">
+    <section className="relative flex flex-col gap-12 items-center py-16 bg-amber-900 bg-[url('@/public/products-background-mobile.jpg')] md:bg-[url('@/public/products-background.jpg')] bg-cover bg-center">
+      <div className="absolute bg-amber-950/50 backdrop-blur-sm inset-0 z-0"></div>
+      <h2 className="text-amber-200 z-10 text-2xl font-bold">
+        Nuestras ofertas
+      </h2>
+      <div className="z-10 flex flex-col sm:flex-row flex-wrap gap-12 items-center justify-center">
         <ProductCard />
         <ProductCard />
         <ProductCard />
       </div>
-      <Button type="secondary">Ver catálogo</Button>
+      <Button className="z-10" type="secondary">
+        Ver catálogo
+      </Button>
     </section>
   );
 }
