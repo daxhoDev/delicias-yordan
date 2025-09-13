@@ -1,7 +1,7 @@
 import Image from "next/image";
 import brandWhite from "@/public/brand-logo-white.png";
 import Button from "@/src/components/button";
-import Whatsapp from "@/src/components/icons/whatsapp";
+import WhatsappIcon from "@/src/components/icons/whatsapp";
 
 export default function Hero(): React.ReactNode {
   return (
@@ -15,7 +15,7 @@ export default function Hero(): React.ReactNode {
         alt="Logo de Delicias Yordan"
         className="w-18 md:w-30 z-10"
       />
-      <div className="text-center text-amber-100 z-10">
+      <div className="text-center text-amber-50 z-10">
         <h1 className="text-3xl md:text-6xl font-bold mb-4">
           Descubre el verdadero sabor
         </h1>
@@ -24,8 +24,12 @@ export default function Hero(): React.ReactNode {
         </p>
       </div>
       <div className="z-10 flex flex-col md:flex-row gap-4 md:gap-12">
-        <Button type="primary" href="/catalog">
-          <Whatsapp size={"1.5rem"} /> Contáctanos
+        <Button
+          type="primary"
+          href="https://wa.me/qr/AB2GJHKE3LR5L1"
+          target="_blank"
+        >
+          <WhatsappIcon size={"1.5rem"} /> Contáctanos
         </Button>
         <Button type="secondary" href="/catalog">
           Ver Ofertas

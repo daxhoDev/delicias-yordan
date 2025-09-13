@@ -7,10 +7,12 @@ export default function Button({
   className,
   type,
   href,
+  target,
 }: ButtonProps): React.ReactNode {
   return (
     <Link
       href={href}
+      target={target}
       className={`${
         type === "primary"
           ? "bg-amber-400 text-amber-950"

@@ -18,7 +18,11 @@ export default function ProductCard({
         <h3 className="text-xl text-center font-medium text-amber-900">
           {title}
         </h3>
-        <Button type="primary" href="/catalog">
+        <Button
+          type="primary"
+          href="https://wa.me/qr/AB2GJHKE3LR5L1"
+          target="_blank"
+        >
           <Whatsapp size={"1.5rem"} />
           Contáctanos
         </Button>
