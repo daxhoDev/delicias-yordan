@@ -1,5 +1,6 @@
 import Button from "../button";
-import ProductCard from "../productCard";
+import ProductCard from "@/src/components/productCard";
+import { cenas } from "@/src/data/catalog";
 
 export default function ProductsSection(): React.ReactNode {
   return (
@@ -9,9 +10,14 @@ export default function ProductsSection(): React.ReactNode {
         Nuestras ofertas
       </h2>
       <div className="z-10 flex flex-col sm:flex-row flex-wrap gap-12 items-center justify-center">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {cenas.map((cena) => (
+          <ProductCard
+            key={cena.title}
+            title={cena.title}
+            price={cena.price}
+            isZelle={cena.isZelle}
+          />
+        ))}
       </div>
       <Button className="z-10" type="secondary">
         Ver catálogo

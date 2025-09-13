@@ -18,3 +18,9 @@ export interface SliderButtonProps {
   direction: "left" | "right";
   onClick?: MouseEventHandler;
 }
+
+export interface ProductCardProps {
+  title: string;
+  price: number;
+  isZelle?: boolean;
+}
