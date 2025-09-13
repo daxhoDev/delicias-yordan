@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Combo de comida cruda",
+    "items": [
+      { "name": "Arroz importado", "quantity": "20 libras" },
+      { "name": "paquete de pollo", "quantity": "1 unidad" },
+      { "name": "paquete de salchichas grande", "quantity": "1 unidad" },
+      { "name": "cartón de huevos", "quantity": "1 unidad" },
+      { "name": "pomos de aceite", "quantity": "2 unidades" },
+      { "name": "azúcar blanca", "quantity": "10 libras" },
+      { "name": "paquete de leche", "quantity": "1 unidad" },
+      { "name": "racimo de plátanos", "quantity": "1 unidad" },
+      { "name": "frijoles", "quantity": "5 libras" },
+      { "name": "latas de pasta de tomate", "quantity": "2 unidades" },
+      { "name": "pata de ajo", "quantity": "1 unidad" },
+      { "name": "caja de malta", "quantity": "1 caja" },
+      { "name": "confituras", "quantity": "15 unidades" }
+    ],
+    "price": "260.00 USD"
+  },
+  {
+    "title": "Combo Zelle #1",
+    "items": [
+      {
+        "name": "cake redondo mediano, cubierto de chocolate y relleno de leche condensada",
+        "quantity": "1 unidad"
+      },
+      { "name": "caja de malta", "quantity": "1 caja" },
+      {
+        "name": "pizza familiar de jamón y queso gouda",
+        "quantity": "1 unidad"
+      },
+      { "name": "ensalada fría", "quantity": "4 litros" },
+      {
+        "title": "Una cena de cerdo asado acompañada de:",
+        "items": [
+          { "name": "Cena de cerdo asado", "quantity": "15 raciones" },
+          { "name": "viandas", "quantity": "15 raciones" },
+          { "name": "ensaladas mixtas", "quantity": "15 raciones" },
+          { "name": "congris", "quantity": "15 raciones" }
+        ]
+      },
+      {
+        "title": "1 bandeja de entrates que trae:",
+        "items": [
+          {
+            "name": "bolitas de queso con dulce de piña",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "croquetas de jamón y queso con salsa rosa",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "tostones rellenos de jamón y queso y vegetales salteados",
+            "quantity": "12 unidades"
+          },
+          {
+            "name": "tacos medianos de jamón, queso y vegetales salteados",
+            "quantity": "6 unidades"
+          }
+        ]
+      },
+      {
+        "title": "Buffet para 50 personas que trae:",
+        "items": [
+          { "name": "bolitas de queso", "quantity": "50 unidades" },
+          { "name": "croquetas", "quantity": "50 unidades" },
+          { "name": "empanadillas", "quantity": "50 unidades" },
+          { "name": "mantecados", "quantity": "50 unidades" },
+          { "name": "pastelitos", "quantity": "50 unidades" },
+          { "name": "cangrejitos", "quantity": "50 unidades" },
+          { "name": "tartaletas", "quantity": "50 unidades" }
+        ]
+      }
+    ],
+    "price": "195.00 USD",
+    "important": "Reservar con al menos tres días de anticipación",
+    "extras": [
+      { "name": "Dulces (cada uno)", "price": "16.00 CUP" },
+      { "name": "Mini donas (cada una)", "price": "30.00 CUP" },
+      { "name": "Cupcakes (cada uno)", "price": "150.00 CUP" }
+    ]
+  },
+  {
+    "title": "Combo Zelle #2",
+    "items": [
+      {
+        "name": "cake mediano redondo con cobertura de chocolate relleno de leche condensada",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "pizza familiar de jamón y queso gouda",
+        "quantity": "1 unidad"
+      },
+      { "name": "ensalada fría", "quantity": "4 litros" },
+      { "name": "caja de malta", "quantity": "1 caja" },
+      {
+        "title": "Buffet para 50 personas que incluye:",
+        "items": [
+          { "name": "cangrejitos", "quantity": "50 unidades" },
+          { "name": "pastelitos", "quantity": "50 unidades" },
+          { "name": "mantecados", "quantity": "50 unidades" },
+          { "name": "empanadillas", "quantity": "50 unidades" },
+          { "name": "bolitas de queso", "quantity": "50 unidades" },
+          { "name": "croquetas", "quantity": "50 unidades" },
+          { "name": "tartaletas", "quantity": "50 unidades" }
+        ]
+      },
+      {
+        "title": "Una bandeja de entrantes que trae:",
+        "items": [
+          {
+            "name": "bolitas de queso con dulce de piña",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "croquetas de jamón y queso con salsa rosa",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "tostones rellenos de jamón, queso y vegetales salteados",
+            "quantity": "12 unidades"
+          },
+          {
+            "name": "tacos mexicanos de jamón, queso y vegetales salteados",
+            "quantity": "6 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "100.00 USD",
+    "important": "Reservar con al menos tres días de anticipación",
+    "extras": [
+      { "name": "Dulces (cada uno)", "price": "16.00 CUP" },
+      { "name": "Mini donas (cada una)", "price": "30.00 CUP" },
+      { "name": "Cupcakes (cada uno)", "price": "150.00 CUP" }
+    ]
+  }
+]

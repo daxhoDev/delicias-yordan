@@ -1,5 +1,5 @@
-import ArrowLeft from "@/src/icons/arrowLeft";
-import ArrowRight from "@/src/icons/arrowRight";
+import ArrowLeft from "@/src/components/icons/arrowLeft";
+import ArrowRight from "@/src/components/icons/arrowRight";
 import { SliderButtonProps } from "@/src/types/propTypes";
 
 export default function SliderButton({

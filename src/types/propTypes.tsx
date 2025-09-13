@@ -1,6 +1,7 @@
 import { MouseEventHandler } from "react";
 
 export interface ButtonProps {
+  href: string;
   children: React.ReactNode;
   type: "primary" | "secondary";
   className?: string;
@@ -9,7 +10,6 @@ export interface ButtonProps {
 export interface FeatureCardProps {
   title: string;
   description: string;
-  align: "left" | "right";
 }
 
 export interface IconProps {
@@ -23,6 +23,6 @@ export interface SliderButtonProps {
 
 export interface ProductCardProps {
   title: string;
-  price: number;
+  price: string;
   isZelle?: boolean;
 }

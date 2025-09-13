@@ -1,6 +1,6 @@
 import Button from "../button";
 import ProductCard from "@/src/components/productCard";
-import { cenas } from "@/src/data/catalog";
+import cenas from "@/src/data/catalog/cenas.json";
 
 export default function ProductsSection(): React.ReactNode {
   return (
@@ -11,15 +11,10 @@ export default function ProductsSection(): React.ReactNode {
       </h2>
       <div className="z-10 flex flex-col sm:flex-row flex-wrap gap-12 items-center justify-center">
         {cenas.map((cena) => (
-          <ProductCard
-            key={cena.title}
-            title={cena.title}
-            price={cena.price}
-            isZelle={cena.isZelle}
-          />
+          <ProductCard key={cena.title} title={cena.title} price={cena.price} />
         ))}
       </div>
-      <Button className="z-10" type="secondary">
+      <Button className="z-10" type="secondary" href="/catalog">
         Ver catálogo
       </Button>
     </section>

@@ -1,5 +1,5 @@
 import FeatureCard from "@/src/components/landing/featureCard";
-import features from "@/src/data/features";
+import features from "@/src/data/features.json";
 
 export default function FeaturesSection(): React.ReactNode {
   return (
@@ -7,13 +7,12 @@ export default function FeaturesSection(): React.ReactNode {
       <h2 className="text-amber-800 text-2xl font-bold">
         Por qué contactarnos
       </h2>
-      <div className="flex flex-col items-center justify-center sm:flex-row sm:flex-wrap gap-8">
+      <div className="flex flex-col ietems-center justify-center sm:flex-row sm:flex-wrap gap-8">
         {features.map((feature) => (
           <FeatureCard
             key={feature.title}
             title={feature.title}
             description={feature.description}
-            align={feature.align}
           />
         ))}
       </div>

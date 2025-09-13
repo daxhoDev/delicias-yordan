@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Cenas de cerdo asado",
+    "description": "Cena de cerdo asado que incluye congris, viandas y ensaladas mixtas",
+    "price": "VARIABLE",
+    "options": [
+      {
+        "name": "Para 10 personas",
+        "price": "17 500 CUP"
+      },
+      {
+        "name": "Para 15 personas",
+        "price": "25 500 CUP"
+      },
+      {
+        "name": "Para 25 personas",
+        "price": "37 000 CUP"
+      },
+      {
+        "name": "Para 50 persona",
+        "price": "50 000 CUP"
+      }
+    ]
+  },
+  {
+    "title": "Cenas de pollo asado",
+    "description": "Cena de pollo asado que incluye arroz salteado con jamón y vegetales, viandas y ensaladas mixtas",
+    "price": "VARIABLE",
+    "options": [
+      {
+        "name": "Para 10 personas",
+        "price": "13 800 CUP"
+      },
+      {
+        "name": "Para 15 personas",
+        "price": "18 500 CUP"
+      }
+    ]
+  }
+]

@@ -1,13 +1,16 @@
 import { ButtonProps } from "@/src/types/propTypes";
+import Link from "next/link";
 import React from "react";
 
 export default function Button({
   children,
   className,
   type,
+  href,
 }: ButtonProps): React.ReactNode {
   return (
-    <button
+    <Link
+      href={href}
       className={`${
         type === "primary"
           ? "bg-amber-400 text-amber-950"
@@ -17,6 +20,6 @@ export default function Button({
       }`}
     >
       {children}
-    </button>
+    </Link>
   );
 }

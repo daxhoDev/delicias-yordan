@@ -1,3 +1,4 @@
+import Categories from "@/src/components/catalog/categories";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -5,5 +6,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home(): React.ReactNode {
-  return <main>Ano</main>;
+  return <Categories />;
 }
