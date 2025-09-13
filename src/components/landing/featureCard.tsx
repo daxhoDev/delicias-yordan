@@ -3,6 +3,8 @@ import chicken from "@/public/rice-with-chicken.png";
 import Image from "next/image";
 
 export default function FeatureCard({
+  title,
+  description,
   align,
 }: FeatureCardProps): React.ReactNode {
   return (
@@ -14,11 +16,8 @@ export default function FeatureCard({
       }`}
     >
       <div className="flex flex-col gap-4 max-w-7/10">
-        <h3 className="font-bold text-amber-900">Lorem ipsum</h3>
-        <p className="text-amber-800">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
-          voluptate tempore maiores.
-        </p>
+        <h3 className="font-bold text-amber-900">{title}</h3>
+        <p className="text-amber-800">{description}</p>
       </div>
       <div className="max-w-3/10">
         <Image

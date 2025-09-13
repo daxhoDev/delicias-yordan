@@ -7,6 +7,8 @@ export interface ButtonProps {
 }
 
 export interface FeatureCardProps {
+  title: string;
+  description: string;
   align: "left" | "right";
 }
 

@@ -6,6 +6,7 @@ export function createItem(title: string, quantity: string): Item {
     quantity,
   };
 }
+
 export function createCenaCerdo(
   persons: number,
   price: number,
