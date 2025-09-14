@@ -11,15 +11,14 @@ export default function ProductsSection(): React.ReactNode {
       </h2>
       <div className="z-10 flex flex-col sm:flex-row flex-wrap gap-12 items-stretch justify-center">
         {catalog.map(
-          (item) => (
-            // item.featured && (
-            <ProductCard
-              key={item.title}
-              title={item.title}
-              price={item.price || "Precio variable"}
-            />
-          )
-          // )
+          (item) =>
+            item.featured && (
+              <ProductCard
+                key={item.title}
+                title={item.title}
+                price={item.price || "Precio variable"}
+              />
+            )
         )}
       </div>
       <Button className="z-10" type="secondary" href="/catalog">
