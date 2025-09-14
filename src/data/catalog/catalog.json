@@ -109,7 +109,6 @@
   },
   {
     "title": "Combo especial",
-    "featured": true,
     "category": "combo",
     "price": "2 950.00 cup",
     "lists": [
@@ -1143,7 +1142,6 @@
   },
   {
     "title": "Pizza Familiar Napolitana",
-    "featured": true,
     "category": "pizzas familiares",
     "price": "2 400.00 cup",
     "extras": [
@@ -1483,6 +1481,7 @@
   {
     "title": "Arroz imperial Plus",
     "category": "arroz imperial",
+    "featured": true,
     "description": "Este arroz imperial contiene cerdo, pollo, camarón, jamón, queso y vegetales salteados",
     "price": "5 700.00 cup",
     "extras": [

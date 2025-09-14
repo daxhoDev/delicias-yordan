@@ -25,5 +25,5 @@ export interface SliderButtonProps {
 export interface ProductCardProps {
   title: string;
   price: string;
-  isZelle?: boolean;
+  featured?: boolean;
 }

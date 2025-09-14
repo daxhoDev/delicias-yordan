@@ -17,6 +17,7 @@ export default function ProductsSection(): React.ReactNode {
                 key={item.title}
                 title={item.title}
                 price={item.price || "Precio variable"}
+                featured={item.featured}
               />
             )
         )}
