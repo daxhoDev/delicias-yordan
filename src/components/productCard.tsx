@@ -14,7 +14,7 @@ export default function ProductCard({
         {price}
       </span>
       <Image src={pizza} alt="pizza" className="rounded-lg" />
-      <div className="flex flex-col gap-8 px-4 pb-6">
+      <div className="flex flex-col justify-between h-full gap-8 px-4 pb-6">
         <h3 className="text-xl text-center font-medium text-amber-900">
           {title}
         </h3>

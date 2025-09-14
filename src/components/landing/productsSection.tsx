@@ -1,18 +1,26 @@
 import Button from "../button";
 import ProductCard from "@/src/components/productCard";
-import cenas from "@/src/data/catalog/cenas.json";
+import catalog from "@/src/data/catalog/catalog.json";
 
 export default function ProductsSection(): React.ReactNode {
   return (
     <section className="relative flex flex-col gap-12 items-center py-16 bg-amber-900 bg-[url('@/public/products-background-mobile.jpg')] md:bg-[url('@/public/products-background.jpg')] bg-cover bg-center">
       <div className="absolute bg-amber-950/50 backdrop-blur-sm inset-0 z-0"></div>
       <h2 className="text-amber-200 z-10 text-2xl font-bold">
-        Nuestras ofertas
+        Nuestras ofertas destacadas
       </h2>
-      <div className="z-10 flex flex-col sm:flex-row flex-wrap gap-12 items-center justify-center">
-        {cenas.map((cena) => (
-          <ProductCard key={cena.title} title={cena.title} price={cena.price} />
-        ))}
+      <div className="z-10 flex flex-col sm:flex-row flex-wrap gap-12 items-stretch justify-center">
+        {catalog.map(
+          (item) => (
+            // item.featured && (
+            <ProductCard
+              key={item.title}
+              title={item.title}
+              price={item.price || "Precio variable"}
+            />
+          )
+          // )
+        )}
       </div>
       <Button className="z-10" type="secondary" href="/catalog">
         Ver catálogo

@@ -1,0 +1,1636 @@
+[
+  {
+    "title": "Cenas de cerdo asado",
+    "featured": true,
+    "category": "cenas",
+    "description": "Cena de cerdo asado que incluye congris, viandas y ensaladas mixtas",
+    "lists": [
+      {
+        "header": "Variantes:",
+        "elements": [
+          {
+            "name": "Para 10 personas",
+            "price": "17 500.00 cup"
+          },
+          {
+            "name": "Para 15 personas",
+            "price": "25 500.00 cup"
+          },
+          {
+            "name": "Para 25 personas",
+            "price": "37 000.00 cup"
+          },
+          {
+            "name": "Para 50 persona",
+            "price": "50 000.00 cup"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cenas de pollo asado",
+    "category": "cenas",
+    "description": "Cena de pollo asado que incluye arroz salteado con jamón y vegetales, viandas y ensaladas mixtas",
+    "lists": [
+      {
+        "header": "Variantes:",
+        "elements": [
+          {
+            "name": "Para 10 personas",
+            "price": "13 800.00 cup"
+          },
+          {
+            "name": "Para 15 personas",
+            "price": "18 500.00 cup"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Combo familiar",
+    "category": "combo",
+    "price": "30 500.00 cup",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Arroz imperial plus (cerdo, pollo, jamón, camarón, queso y vegetales salteados)",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "pizza familiar de jamón y queso gouda",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "ensalada fría",
+            "quantity": "4 litros"
+          },
+          {
+            "name": "tartaletas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "caja de cerveza",
+            "quantity": "1 caja"
+          },
+          {
+            "name": "caja de malta",
+            "quantity": "1 caja"
+          }
+        ]
+      },
+      {
+        "header": "Además de bandeja que trae:",
+        "elements": [
+          {
+            "name": "Bolitas de queso con dulce de piña",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Croquetas de jamón y queso con salsa rosa",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Tostones rellenos de jamón, queso y vegetales salteados",
+            "quantity": "12 unidades"
+          },
+          {
+            "name": "Tacos mexicanos de jamón, queso y vegetales salteados",
+            "quantity": "6 unidades"
+          }
+        ]
+      }
+    ],
+
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo especial",
+    "featured": true,
+    "category": "combo",
+    "price": "2 950.00 cup",
+    "lists": [
+      {
+        "header": "Incluye",
+        "elements": [
+          {
+            "name": "ensalada fría",
+            "quantity": "2 litros"
+          },
+          {
+            "name": "tartaletas",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "cangrejitos",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "mantecados",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "empanadillas",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "15 unidades"
+          }
+        ]
+      }
+    ],
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "title": "Combo #1",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Bolitas de queso",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "empanadillas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "pastelitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "cangrejitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "mantecados",
+            "quantity": "50 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "4 600.00 cup",
+    "extras": [
+      {
+        "name": "Tartaletas opcionales",
+        "quantity": "Cada una",
+        "price": "16.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Combo #2",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Bolitas de queso",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "empanadillas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "pastelitos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "cangrejitos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "mantecados",
+            "quantity": "30 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "3 100.00 cup",
+    "extras": [
+      {
+        "name": "Tartaletas opcionales (cada una)",
+        "price": "16.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Combo #3",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Bolitas de queso",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "empanadillas",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "pastelitos",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "cangrejitos",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "mantecados",
+            "quantity": "20 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "2 300.00 cup",
+    "extras": [
+      {
+        "name": "Tartaletas opcionales (cada una)",
+        "price": "16.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Combo #4",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Ensalada fría",
+            "quantity": "4 litros"
+          },
+          {
+            "name": "Tartaletas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "50 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "5 800.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Combo #5",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Ensalada fría",
+            "quantity": "4 litros"
+          },
+          {
+            "name": "Tartaletas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "30 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "4 800.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Combo #6",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Ensalada fría",
+            "quantity": "2 litros"
+          },
+          {
+            "name": "Tartaletas",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "20 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "3 000.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Combo #7",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "cupcakes con merengue",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "Empanadillas",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "Cangrejitos",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "15 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "15 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "3 800.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "cupcakes",
+        "quantity": "Cada uno",
+        "price": "150.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo #8",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "cupcakes con merengue",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Mini donas",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Cangrejitos",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Empanadillas",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "20 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "5 600.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      },
+      {
+        "name": "cupcakes",
+        "quantity": "Cada uno",
+        "price": "150.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo #9",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Mini donas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Caramelos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Empanadillas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Cangrejitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "50 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "7 200.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo #10",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Ensalada fría",
+            "quantity": "2 litros"
+          },
+          {
+            "name": "Mini donas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Caramelos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Cangrejitos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Empanadillas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Tartaletas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "30 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "5 850.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      },
+      {
+        "name": "Ensalada fría",
+        "quantity": "Cada litro",
+        "price": "750.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo #11",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Ensalada fría",
+            "quantity": "2 litros"
+          },
+          {
+            "name": "cake mediano (22cm de diámetro x 8cm de alto)",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Caramelos",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Mini donas",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Empanadillas",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Cangrejitos",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "25 unidades"
+          },
+          {
+            "name": "Tartaletas",
+            "quantity": "25 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "9 500.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      },
+      {
+        "name": "Ensalada fría",
+        "quantity": "Cada litro",
+        "price": "750.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo #12",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Cake de dos pisos",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Panetela mediana y pequeña",
+            "quantity": "30 raciones"
+          },
+          {
+            "name": "cupcakes con merengue personalizados",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Ensalada fría",
+            "quantity": "4 litros"
+          },
+          {
+            "name": "Mini donas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Caramelos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Empanadillas",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Cangrejitos",
+            "quantity": "30 unidades"
+          },
+          {
+            "name": "Tartaletas",
+            "quantity": "30 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "19 000.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      },
+      {
+        "name": "cupcakes personalizados",
+        "quantity": "Cada uno",
+        "price": "170.00 cup"
+      },
+      {
+        "name": "Ensalada fría",
+        "quantity": "Cada litro",
+        "price": "750.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo #13",
+    "category": "combo",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Ensalada fría",
+            "quantity": "1 litro"
+          },
+          {
+            "name": "cake pequeño (16cm de diámetro x 8cm de alto)",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Mini donas",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Caramelos",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Pastelitos",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Cangrejitos",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Empanadillas",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Mantecados",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Tartaletas",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "10 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "10 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "4 500.00 cup",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      },
+      {
+        "name": "Ensalada fría",
+        "quantity": "Cada litro",
+        "price": "750.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de anticipación"
+  },
+  {
+    "title": "Combo de comida cruda",
+    "category": "combos por zelle",
+    "lists": [
+      {
+        "header": "Incluye",
+        "elements": [
+          {
+            "name": "Arroz importado",
+            "quantity": "20 libras"
+          },
+          {
+            "name": "Paquete de pollo",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Paquete de salchichas grande",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Cartón de huevos",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Pomos de aceite",
+            "quantity": "2 unidades"
+          },
+          {
+            "name": "Azúcar blanca",
+            "quantity": "10 libras"
+          },
+          {
+            "name": "Paquete de leche",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Racimo de plátanos",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Frijoles",
+            "quantity": "5 libras"
+          },
+          {
+            "name": "Latas de pasta de tomate",
+            "quantity": "2 unidades"
+          },
+          {
+            "name": "Pata de ajo",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Caja de malta",
+            "quantity": "1 caja"
+          },
+          {
+            "name": "Confituras",
+            "quantity": "15 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "260.00 usd"
+  },
+  {
+    "title": "Combo Zelle #1",
+    "category": "combos por zelle",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Cake redondo mediano, cubierto de chocolate y relleno de leche condensada",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Caja de malta",
+            "quantity": "1 caja"
+          },
+          {
+            "name": "Pizza familiar de jamón y queso gouda",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Ensalada fría",
+            "quantity": "4 litros"
+          }
+        ]
+      },
+      {
+        "header": "Además de una cena con:",
+        "elements": [
+          {
+            "name": "Cena de cerdo asado",
+            "quantity": "15 raciones"
+          },
+          {
+            "name": "Viandas",
+            "quantity": "15 raciones"
+          },
+          {
+            "name": "Ensaladas mixtas",
+            "quantity": "15 raciones"
+          },
+          {
+            "name": "Congris",
+            "quantity": "15 raciones"
+          }
+        ]
+      },
+      {
+        "header": "Además de una bandeja con:",
+        "elements": [
+          {
+            "name": "Bolitas de queso con dulce de piña",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Croquetas de jamón y queso con salsa rosa",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Tostones rellenos de jamón, queso y vegetales salteados",
+            "quantity": "12 unidades"
+          },
+          {
+            "name": "Tacos medianos de jamón, queso y vegetales salteados",
+            "quantity": "6 unidades"
+          }
+        ]
+      },
+      {
+        "header": "Además de una bandeja con:",
+        "elements": [
+          {
+            "name": "Bolitas de queso",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "empanadillas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "mantecados",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "pastelitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "cangrejitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "tartaletas",
+            "quantity": "50 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "195.00 usd",
+    "important": "Reservar con al menos tres días de anticipación",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      },
+      {
+        "name": "cupcakes",
+        "quantity": "Cada uno",
+        "price": "150.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Combo Zelle #2",
+    "category": "combos por zelle",
+    "lists": [
+      {
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Cake mediano redondo con cobertura de chocolate relleno de leche condensada",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Pizza familiar de jamón y queso gouda",
+            "quantity": "1 unidad"
+          },
+          {
+            "name": "Ensalada fría",
+            "quantity": "4 litros"
+          },
+          {
+            "name": "Caja de malta",
+            "quantity": "1 caja"
+          }
+        ]
+      },
+      {
+        "header": "Además de un buffet con:",
+        "elements": [
+          {
+            "name": "cangrejitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "pastelitos",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "mantecados",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "empanadillas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Bolitas de queso",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "Croquetas",
+            "quantity": "50 unidades"
+          },
+          {
+            "name": "tartaletas",
+            "quantity": "50 unidades"
+          }
+        ]
+      },
+      {
+        "header": "Además de una bandeja con:",
+        "elements": [
+          {
+            "name": "Bolitas de queso con dulce de piña",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Croquetas de jamón y queso con salsa rosa",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Tostones rellenos de jamón, queso y vegetales salteados",
+            "quantity": "12 unidades"
+          },
+          {
+            "name": "Tacos mexicanos de jamón, queso y vegetales salteados",
+            "quantity": "6 unidades"
+          }
+        ]
+      }
+    ],
+    "price": "100.00 usd",
+    "important": "Reservar con al menos tres días de anticipación",
+    "extras": [
+      {
+        "name": "Dulces",
+        "quantity": "Cada uno",
+        "price": "16.00 cup"
+      },
+      {
+        "name": "Mini donas",
+        "quantity": "Cada una",
+        "price": "30.00 cup"
+      },
+      {
+        "name": "cupcakes",
+        "quantity": "Cada uno",
+        "price": "150.00 cup"
+      }
+    ]
+  },
+  {
+    "title": "Pizza Familiar Napolitana",
+    "featured": true,
+    "category": "pizzas familiares",
+    "price": "2 400.00 cup",
+    "extras": [
+      {
+        "name": "Queso gouda",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Piña",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Vegetales",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "900.00 cup"
+      }
+    ],
+    "important": "En caso de recoger la pizza en nuestro local, debe traer una bandeja el día de la entrega"
+  },
+  {
+    "title": "Pizza Familiar Vegetales",
+    "category": "pizzas familiares",
+    "price": "3 000.00 cup",
+    "extras": [
+      {
+        "name": "Queso gouda",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Piña",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Vegetales",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "900.00 cup"
+      }
+    ],
+    "important": "En caso de recoger la pizza en nuestro local, debe traer una bandeja el día de la entrega"
+  },
+  {
+    "title": "Pizza Familiar Hawaiana",
+    "category": "pizzas familiares",
+    "price": "3 100.00 cup",
+    "extras": [
+      {
+        "name": "Queso gouda",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Piña",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Vegetales",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "900.00 cup"
+      }
+    ],
+    "important": "En caso de recoger la pizza en nuestro local, debe traer una bandeja el día de la entrega"
+  },
+  {
+    "title": "Pizza Familiar de Camarones",
+    "category": "pizzas familiares",
+    "price": "3 350.00 cup",
+    "extras": [
+      {
+        "name": "Queso gouda",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Piña",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Vegetales",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "900.00 cup"
+      }
+    ],
+    "important": "En caso de recoger la pizza en nuestro local, debe traer una bandeja el día de la entrega"
+  },
+  {
+    "title": "Bandeja de entrantes",
+    "category": "entrantes",
+    "price": "4 000.00 cup",
+    "lists": [
+      {
+        "name": "Bolitas de queso con dulce de piña",
+        "quantity": "20 unidades"
+      },
+      {
+        "name": "Croquetas de jamón y queso con salsa rosa",
+        "quantity": "20 unidades"
+      },
+      {
+        "name": "Tacos mexicanos de jamón, queso y vegetales salteados",
+        "quantity": "6 unidades"
+      },
+      {
+        "name": "Tostones rellenos de jamón, queso y vegetales salteados",
+        "quantity": "12 unidades"
+      }
+    ],
+    "important": "La bandeja va incluida"
+  },
+  {
+    "title": "Mini Donas",
+    "category": "dulces",
+    "price": "30.00 cup"
+  },
+  {
+    "title": "Cupcakes",
+    "category": "dulces",
+    "price": "150.00 cup"
+  },
+  {
+    "title": "Pastel de hoja",
+    "category": "dulces",
+    "price": "70.00 cup"
+  },
+  {
+    "title": "Eclear relleno de nutella",
+    "category": "dulces",
+    "price": "250.00 cup"
+  },
+  {
+    "title": "Polvorones",
+    "category": "dulces",
+    "price": "60.00 cup"
+  },
+  {
+    "title": "Flan de leche condensada",
+    "category": "dulces",
+    "price": "1 700.00 cup"
+  },
+  {
+    "title": "Croquetas de jamón y queso con salsa rosa (10 unid.)",
+    "category": "entrantes",
+    "price": "500.00 cup"
+  },
+  {
+    "title": "Bolitas de queso con dulce de piña en almíbar (10 unid.)",
+    "category": "entrantes",
+    "price": "500.00 cup"
+  },
+  {
+    "title": "Tacos de cerdo, queso y vegetales salteados (3 unid.)",
+    "category": "entrantes",
+    "price": "800.00 cup"
+  },
+  {
+    "title": "Tacos de jamón, queso y vegetales salteados (3 unid.)",
+    "category": "entrantes",
+    "price": "800.00 cup"
+  },
+  {
+    "title": "Tostones rellenos de jamón, queso y vegetales salteados (6 unid.)",
+    "featured": true,
+    "category": "entrantes",
+    "price": "800.00 cup"
+  },
+  {
+    "title": "Tostones rellenos de cerdo, queso y vegetales salteados (6 unid.)",
+    "category": "entrantes",
+    "price": "800.00 cup"
+  },
+  {
+    "title": "Tostones rellenos de camarón, mayonesa y vegetales salteados (6 unid.)",
+    "category": "entrantes",
+    "price": "1 000.00 cup"
+  },
+  {
+    "title": "Arroz imperial con cerdo, jamón y vegetales salteados",
+    "category": "arroz imperial",
+    "price": "3 500.00 cup",
+    "extras": [
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Queso",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Plátano maduro",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Pollo",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Cerdo",
+        "price": "900.00 cup"
+      },
+      {
+        "name": "Pescado",
+        "price": "1 000.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "1 000.00 cup"
+      }
+    ],
+    "important": "La bandeja va incluida"
+  },
+  {
+    "title": "Arroz imperial con cerdo, pollo, jamón y vegetales salteados",
+    "category": "arroz imperial",
+    "price": "3 800.00 cup",
+    "extras": [
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Queso",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Plátano maduro",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Pollo",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Cerdo",
+        "price": "900.00 cup"
+      },
+      {
+        "name": "Pescado",
+        "price": "1 000.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "1 000.00 cup"
+      }
+    ],
+    "important": "La bandeja va incluida"
+  },
+  {
+    "title": "Arroz imperial con cerdo, camarón, jamón y vegetales salteados",
+    "category": "arroz imperial",
+    "price": "4 900.00 cup",
+    "extras": [
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Queso",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Plátano maduro",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Pollo",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Cerdo",
+        "price": "900.00 cup"
+      },
+      {
+        "name": "Pescado",
+        "price": "1 000.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "1 000.00 cup"
+      }
+    ],
+    "important": "La bandeja va incluida"
+  },
+  {
+    "title": "Arroz imperial Plus",
+    "category": "arroz imperial",
+    "description": "Este arroz imperial contiene cerdo, pollo, camarón, jamón, queso y vegetales salteados",
+    "price": "5 700.00 cup",
+    "extras": [
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Queso",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Plátano maduro",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Pollo",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Cerdo",
+        "price": "900.00 cup"
+      },
+      {
+        "name": "Pescado",
+        "price": "1 000.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "1 000.00 cup"
+      }
+    ],
+    "important": "La bandeja va incluida"
+  },
+  {
+    "title": "Arroz imperial marinero",
+    "category": "arroz imperial",
+    "description": "Este arroz imperial contiene cangrejo, pescado, camarón, plátano maduro y vegetales salteados",
+    "price": "6 500.00 cup",
+    "extras": [
+      {
+        "name": "Aceitunas",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Queso",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Plátano maduro",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Jamón",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Pollo",
+        "price": "700.00 cup"
+      },
+      {
+        "name": "Cerdo",
+        "price": "900.00 cup"
+      },
+      {
+        "name": "Pescado",
+        "price": "1 000.00 cup"
+      },
+      {
+        "name": "Camarón",
+        "price": "1 000.00 cup"
+      }
+    ],
+    "important": "La bandeja va incluida"
+  },
+  {
+    "title": "Ensalada fría",
+    "category": "ensalada fría",
+    "lists": [
+      {
+        "header": "Variantes:",
+        "elements": [
+          {
+            "name": "4 litros",
+            "price": "2 800.00 cup"
+          },
+          {
+            "name": "3 litros",
+            "price": "2 250.00 cup"
+          },
+          {
+            "name": "2 litros",
+            "price": "1 500.00 cup"
+          },
+          {
+            "name": "1 litro",
+            "price": "750.00 cup"
+          }
+        ]
+      }
+    ],
+    "extras": [
+      {
+        "name": "Tartaletas",
+        "price": "16.00 cup",
+        "quantity": "Cada una"
+      }
+    ],
+    "important": "La tanquetica debe devolverse, en caso de recogida en el local debe traer el envase. Reservar con al menos uno o dos días de antelación"
+  },
+  {
+    "title": "Ensalada fría especial",
+    "description": "Esta ensalada fría está hecha con queso gouda y jamón bravo",
+    "category": "ensalada fría",
+    "lists": [
+      {
+        "header": "Variantes:",
+        "elements": [
+          {
+            "name": "4 litros",
+            "price": "4 000.00 cup"
+          },
+          {
+            "name": "3 litros",
+            "price": "3 000.00 cup"
+          },
+          {
+            "name": "2 litros",
+            "price": "12000.00 cup"
+          },
+          {
+            "name": "1 litro",
+            "price": "1 000.00 cup"
+          }
+        ]
+      }
+    ],
+    "extras": [
+      {
+        "name": "Tartaletas",
+        "price": "16.00 cup",
+        "quantity": "Cada una"
+      }
+    ],
+    "important": "La tanquetica debe devolverse, en caso de recogida en el local debe traer el envase. Reservar con al menos uno o dos días de antelación"
+  }
+]
