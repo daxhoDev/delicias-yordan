@@ -1,4 +1,4 @@
-import { MouseEventHandler } from "react";
+import React, { MouseEventHandler } from "react";
 
 export interface ButtonProps {
   href: string;
@@ -26,4 +26,5 @@ export interface ProductCardProps {
   title: string;
   price: string;
   featured?: boolean;
+  onToggleProduct: React.MouseEventHandler;
 }

@@ -4,7 +4,7 @@ import Brand from "@/src/components/navbar/brand";
 import MobileNav from "@/src/components/navbar/mobileNav";
 import { Dispatch, SetStateAction, useState } from "react";
 import { usePathname } from "next/navigation";
-import Backdrop from "./backdrop";
+import Backdrop from "../backdrop";
 import ButtonToggle from "./buttonToggle";
 import Button from "../button";
 import WhatsappIcon from "../icons/whatsapp";
@@ -63,7 +63,7 @@ export default function Navbar() {
       </div>
       {showMobileNav && (
         <>
-          <Backdrop onToggleMobileNav={handleToggleMobileNav} />
+          <Backdrop onClick={handleToggleMobileNav} />
           <MobileNav isMobileNavOpen={isMobileNavOpen} />
         </>
       )}

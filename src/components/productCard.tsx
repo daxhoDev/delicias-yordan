@@ -8,9 +8,13 @@ export default function ProductCard({
   title,
   price,
   featured,
+  onToggleProduct,
 }: ProductCardProps): React.ReactNode {
   return (
-    <article className="hover:-translate-y-2 hover:shadow-xl transition-all flex cursor-pointer flex-col gap-6 relative bg-amber-50 p-3 text-left rounded-xl shadow-lg w-95/100 max-w-90 overflow-hidden">
+    <article
+      onClick={onToggleProduct}
+      className="hover:-translate-y-2 hover:shadow-xl transition-all flex cursor-pointer flex-col gap-6 relative bg-amber-50 p-3 text-left rounded-xl shadow-lg w-95/100 max-w-90 overflow-hidden"
+    >
       <span className="px-4 text-center text-xl sm:text-2xl absolute top-0 right-0 bg-amber-50 text-amber-950 py-2 font-bold rounded-bl-lg shadow-md">
         {price}
       </span>
