@@ -1,4 +1,5 @@
-import Categories from "@/src/components/catalog/categories";
+import ProductsFilter from "@/src/components/catalog/productsFilter";
+import ProductsContainer from "@/src/components/catalog/productsContainer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,5 +7,10 @@ export const metadata: Metadata = {
 };
 
 export default function Home(): React.ReactNode {
-  return <Categories />;
+  return (
+    <div>
+      <ProductsFilter />
+      <ProductsContainer category="entrantes" />
+    </div>
+  );
 }

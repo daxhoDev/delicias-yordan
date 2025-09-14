@@ -3,6 +3,7 @@
     "title": "Cenas de cerdo asado",
     "featured": true,
     "category": "cenas",
+    "price": "Precio variable",
     "description": "Cena de cerdo asado que incluye congris, viandas y ensaladas mixtas",
     "lists": [
       {
@@ -32,6 +33,7 @@
     "title": "Cenas de pollo asado",
     "category": "cenas",
     "description": "Cena de pollo asado que incluye arroz salteado con jamón y vegetales, viandas y ensaladas mixtas",
+    "price": "Precio variable",
     "lists": [
       {
         "header": "Variantes:",
@@ -69,7 +71,7 @@
             "quantity": "4 litros"
           },
           {
-            "name": "tartaletas",
+            "name": "Tartaletas",
             "quantity": "50 unidades"
           },
           {
@@ -105,7 +107,7 @@
       }
     ],
 
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo especial",
@@ -433,7 +435,7 @@
         "price": "150.00 cup"
       }
     ],
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo #8",
@@ -495,7 +497,7 @@
         "price": "150.00 cup"
       }
     ],
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo #9",
@@ -552,7 +554,7 @@
         "price": "30.00 cup"
       }
     ],
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo #10",
@@ -618,7 +620,7 @@
         "price": "750.00 cup"
       }
     ],
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo #11",
@@ -692,7 +694,7 @@
         "price": "750.00 cup"
       }
     ],
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo #12",
@@ -779,7 +781,7 @@
         "price": "750.00 cup"
       }
     ],
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo #13",
@@ -853,7 +855,7 @@
         "price": "750.00 cup"
       }
     ],
-    "important": "Reservar con al menos tres días de anticipación"
+    "important": "Reservar con al menos tres días de antelación"
   },
   {
     "title": "Combo de comida cruda",
@@ -1021,7 +1023,7 @@
       }
     ],
     "price": "195.00 usd",
-    "important": "Reservar con al menos tres días de anticipación",
+    "important": "Reservar con al menos tres días de antelación",
     "extras": [
       {
         "name": "Dulces",
@@ -1121,7 +1123,7 @@
       }
     ],
     "price": "100.00 usd",
-    "important": "Reservar con al menos tres días de anticipación",
+    "important": "Reservar con al menos tres días de antelación",
     "extras": [
       {
         "name": "Dulces",
@@ -1564,6 +1566,7 @@
   {
     "title": "Ensalada fría",
     "category": "ensalada fría",
+    "price": "Precio variable",
     "lists": [
       {
         "header": "Variantes:",
@@ -1600,6 +1603,7 @@
     "title": "Ensalada fría especial",
     "description": "Esta ensalada fría está hecha con queso gouda y jamón bravo",
     "category": "ensalada fría",
+    "price": "Precio variable",
     "lists": [
       {
         "header": "Variantes:",
@@ -1631,5 +1635,216 @@
       }
     ],
     "important": "La tanquetica debe devolverse, en caso de recogida en el local debe traer el envase. Reservar con al menos uno o dos días de antelación"
+  },
+  {
+    "title": "Buffet de cumpleaños",
+    "category": "Buffet",
+    "description": "Estos buffets incluyen pastelitos, cangrejitos, mantecados, empanadillas, bolitas de queso y croquetas",
+    "price": "Precio variable",
+    "lists": [
+      {
+        "header": "Variantes:",
+        "elements": [
+          {
+            "name": "Para 100 personas",
+            "price": "9 700.00 cup"
+          },
+          {
+            "name": "Para 200 personas",
+            "price": "19 300.00 cup"
+          }
+        ]
+      }
+    ],
+    "extras": [
+      {
+        "name": "Tartaletas",
+        "price": "16.00 cup",
+        "quantity": "Cada una"
+      }
+    ]
+  },
+  {
+    "title": "Dos cakes redondos unidos en forma de ocho",
+    "category": "cakes",
+    "price": "8 000.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "700.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de antelación. Debe traer la bandeja"
+  },
+  {
+    "title": "Cake mediano redondo",
+    "category": "cakes",
+    "price": "3 500.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "300.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "200.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de antelación."
+  },
+  {
+    "title": "Cake pequeño redondo",
+    "category": "cakes",
+    "price": "1 900.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "300.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "100.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos tres días de antelación."
+  },
+  {
+    "title": "Cakes de pisos",
+    "category": "cakes",
+    "price": "Precio variable",
+    "description": "Cakes perfectos para bodas y quinces. Cada piso tiene tres masas con doble relleno.",
+    "lists": [
+      {
+        "header": "Variantes:",
+        "elements": [
+          {
+            "name": "4 pisos",
+            "price": "35 000.00 cup"
+          },
+          {
+            "name": "3 pisos",
+            "price": "30 000.00 cup"
+          },
+          {
+            "name": "2 pisos",
+            "price": "15 500.00 cup"
+          }
+        ]
+      }
+    ],
+    "important": "El transporte lleva un costo adicional según la dirección. Los adornos, soportes, bases acrílicas, etc. deben devolverse. Los cakes de dos pisos se recogen en nuestro local. Reservar con al menos diez días de antelación."
+  },
+  {
+    "title": "Cake de dos pisos, panetela mediana y pequeña (30 rac.)",
+    "category": "cakes",
+    "price": "5 500.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "700.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos dos o tres días de antelación"
+  },
+  {
+    "title": "Cake Bombón",
+    "description": "Cubierto completamente de chocolate",
+    "category": "cakes",
+    "price": "4 000.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos dos o tres días de antelación"
+  },
+  {
+    "title": "Cake de bandeja completa con media bandeja encima",
+    "category": "cakes",
+    "price": "18 500.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "2 000.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos cuatro días de antelación. Debe traer la bandeja desde el momento de la reserva. Estos cakes no se llevan a domicilio"
+  },
+  {
+    "title": "Cake de bandeja entera con un piso redondo encima",
+    "category": "cakes",
+    "price": "15 500.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "1 500.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos cuatro días de antelación. Debe traer la bandeja desde el momento de la reserva. Estos cakes no se llevan a domicilio"
+  },
+  {
+    "title": "Cake de bandeja entera",
+    "category": "cakes",
+    "price": "12 500.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "1 000.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos cuatro días de antelación. Debe traer la bandeja desde el momento de la reserva. Estos cakes no se llevan a domicilio"
+  },
+  {
+    "title": "Cake de media bandeja con un piso redondo encima",
+    "category": "cakes",
+    "price": "10 000.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "1 000.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos cuatro días de antelación. Debe traer la bandeja desde el momento de la reserva. Estos cakes no se llevan a domicilio"
+  },
+  {
+    "title": "Cake de media bandeja",
+    "category": "cakes",
+    "price": "6 500.00 cup",
+    "extras": [
+      {
+        "name": "Temática",
+        "price": "500.00 cup"
+      },
+      {
+        "name": "Cobertura de chocolate",
+        "price": "700.00 cup"
+      }
+    ],
+    "important": "Reservar con al menos cuatro días de antelación. Debe traer la bandeja desde el momento de la reserva. Estos cakes no se llevan a domicilio"
   }
 ]
