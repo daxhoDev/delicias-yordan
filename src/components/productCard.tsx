@@ -34,7 +34,7 @@ export default function ProductCard({
           href="https://wa.me/qr/AB2GJHKE3LR5L1"
           target="_blank"
         >
-          <Whatsapp size={"1.5rem"} />
+          <Whatsapp width={24} height={24} />
           Contáctanos
         </Button>
       </div>

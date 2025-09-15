@@ -1,12 +1,15 @@
-import { IconProps } from "@/src/types/propTypes";
+import { SVGProps } from "react";
 
-export default function WhatsappIcon({ size }: IconProps): React.ReactNode {
+export default function WhatsappIcon(
+  props: SVGProps<SVGSVGElement>
+): React.ReactNode {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
       viewBox="-32 0 512 512"
+      width={24}
+      height={24}
+      {...props}
     >
       <path
         fill="currentColor"

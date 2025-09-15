@@ -29,7 +29,7 @@ export default function Hero(): React.ReactNode {
           href="https://wa.me/qr/AB2GJHKE3LR5L1"
           target="_blank"
         >
-          <WhatsappIcon size={"1.5rem"} /> Contáctanos
+          <WhatsappIcon width={24} height={24} /> Contáctanos
         </Button>
         <Button variant="secondary" href="/catalog">
           Ver Ofertas

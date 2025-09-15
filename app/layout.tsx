@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`antialiased ${montserrat.className} sm:text-lg bg-amber-50 min-h-dvh grid grid-rows-[1fr,max-content]`}
+        className={`antialiased ${montserrat.className} sm:text-lg bg-amber-50 min-h-dvh grid grid-rows-[repeat(2,auto)] grid-cols-1`}
       >
         <Navbar />
         {children}
