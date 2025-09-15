@@ -5,8 +5,8 @@ import WhatsappIcon from "@/src/components/icons/whatsapp";
 
 export default function Hero(): React.ReactNode {
   return (
-    <section className="relative flex flex-col items-center px-4 py-8 justify-center min-h-dvh gap-12 bg-[url('@/public/hero-mobile.jpg')] md:bg-[url('@/public/hero-desktop.jpg')] bg-center bg-cover ">
-      <div className="absolute bg-amber-950/50 inset-0 z-0"></div>
+    <section className="relative flex flex-col items-center px-4 py-8 justify-center min-h-dvh gap-12 bg-[url('@/public/hero-mobile.jpg')] md:bg-[url('@/public/hero-desktop.jpg')] bg-no-repeat bg-fixed bg-center bg-cover ">
+      <div className="absolute bg-amber-950/65 inset-0 z-0"></div>
       <Image
         src={brandWhite}
         width={499}

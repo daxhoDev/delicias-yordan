@@ -34,7 +34,7 @@ export default function ProductsContainer({
   }
 
   return (
-    <main className="flex flex-col sm:flex-row flex-wrap gap-12 items-center sm:items-stretch justify-center">
+    <main className="flex flex-col sm:flex-row flex-wrap items-center sm:items-stretch justify-center gap-x-16 gap-y-24">
       {catalog.map(
         (item) =>
           item.title.toLowerCase().includes(search.toLowerCase()) &&
