@@ -52,7 +52,7 @@
   },
   {
     "title": "Combo familiar",
-    "category": "combo",
+    "category": "combos",
     "price": "30 500.00 cup",
     "lists": [
       {
@@ -111,7 +111,7 @@
   },
   {
     "title": "Combo especial",
-    "category": "combo",
+    "category": "combos",
     "price": "2 950.00 cup",
     "lists": [
       {
@@ -152,13 +152,13 @@
       {
         "name": "Dulces",
         "quantity": "Cada uno",
-        "price": 16
+        "price": "16.00 cup"
       }
     ]
   },
   {
     "title": "Combo #1",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -201,7 +201,7 @@
   },
   {
     "title": "Combo #2",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -243,7 +243,7 @@
   },
   {
     "title": "Combo #3",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -281,7 +281,7 @@
   },
   {
     "title": "Combo #4",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -316,7 +316,7 @@
   },
   {
     "title": "Combo #5",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -351,7 +351,7 @@
   },
   {
     "title": "Combo #6",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -390,7 +390,7 @@
   },
   {
     "title": "Combo #7",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -439,7 +439,7 @@
   },
   {
     "title": "Combo #8",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -501,7 +501,7 @@
   },
   {
     "title": "Combo #9",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -558,7 +558,7 @@
   },
   {
     "title": "Combo #10",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -624,7 +624,7 @@
   },
   {
     "title": "Combo #11",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -698,7 +698,7 @@
   },
   {
     "title": "Combo #12",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -785,7 +785,7 @@
   },
   {
     "title": "Combo #13",
-    "category": "combo",
+    "category": "combos",
     "lists": [
       {
         "header": "Incluye:",
@@ -1276,20 +1276,25 @@
     "price": "4 000.00 cup",
     "lists": [
       {
-        "name": "Bolitas de queso con dulce de piña",
-        "quantity": "20 unidades"
-      },
-      {
-        "name": "Croquetas de jamón y queso con salsa rosa",
-        "quantity": "20 unidades"
-      },
-      {
-        "name": "Tacos mexicanos de jamón, queso y vegetales salteados",
-        "quantity": "6 unidades"
-      },
-      {
-        "name": "Tostones rellenos de jamón, queso y vegetales salteados",
-        "quantity": "12 unidades"
+        "header": "Incluye:",
+        "elements": [
+          {
+            "name": "Bolitas de queso con dulce de piña",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Croquetas de jamón y queso con salsa rosa",
+            "quantity": "20 unidades"
+          },
+          {
+            "name": "Tacos mexicanos de jamón, queso y vegetales salteados",
+            "quantity": "6 unidades"
+          },
+          {
+            "name": "Tostones rellenos de jamón, queso y vegetales salteados",
+            "quantity": "12 unidades"
+          }
+        ]
       }
     ],
     "important": "La bandeja va incluida"

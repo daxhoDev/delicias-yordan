@@ -22,9 +22,9 @@ export interface SliderButtonProps {
   onClick?: MouseEventHandler;
 }
 
-export interface ProductCardProps {
-  title: string;
-  price: string;
-  featured?: boolean;
-  onToggleProduct: React.MouseEventHandler;
-}
+// export interface ProductCardProps {
+//   title: string;
+//   price: string;
+//   featured?: boolean;
+//   onToggleProduct: React.MouseEventHandler;
+// }

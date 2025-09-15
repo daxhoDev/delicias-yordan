@@ -8,9 +8,10 @@ export const metadata: Metadata = {
 
 export default function Home(): React.ReactNode {
   return (
-    <div>
+    <div className="h-full relative bg-amber-950 bg-[url('@/public/products-background-mobile.jpg')] md:bg-[url('@/public/products-background.jpg')]">
+      <div className="absolute top-0 left-0 size-full bg-amber-950/60 backdrop-blur-sm inset-0 z-0"></div>
       <ProductsFilter />
-      <ProductsContainer category="entrantes" />
+      <ProductsContainer category="cenas" />
     </div>
   );
 }
