@@ -55,7 +55,7 @@ export default function ProductDetails({
               </>
             )}
             {openProduct.important && (
-              <p className="text-amber-600 mt-16">{openProduct.important}</p>
+              <p className="text-amber-600 mt-16">* {openProduct.important}</p>
             )}
           </>
         )}

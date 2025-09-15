@@ -18,7 +18,7 @@ export default function FeatureCard({
         <h3 className="font-bold text-amber-900">{title}</h3>
         <p className="text-amber-800">{description}</p>
       </div>
-      <div className="max-w-3/10">{icon}</div>
+      <div className="max-w-3/10 text-amber-700">{icon}</div>
     </article>
   );
 }
