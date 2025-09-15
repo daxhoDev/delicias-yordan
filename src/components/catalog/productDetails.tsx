@@ -3,6 +3,7 @@
 import { Product } from "@/src/types/dataTypes";
 import ProductList from "./productList";
 import ProductElement from "./productElement";
+import Close from "../icons/close";
 
 export default function ProductDetails({
   openProduct,
@@ -14,7 +15,7 @@ export default function ProductDetails({
   return (
     <>
       <aside
-        className={`text-center text-amber-700 fixed flex flex-col items-center top-0 right-0 w-[100dvw] md:w-[80dvw] lg:w-[60dvw] xl:w-[50dvw] z-100 bg-amber-50/95 shadow-2xl shadow-primary-200 h-dvh py-16 px-8 gap-4 ${
+        className={`overflow-scroll text-center text-amber-700 fixed flex flex-col items-center top-0 right-0 w-[100dvw] md:w-[80dvw] lg:w-[60dvw] xl:w-[50dvw] z-100 bg-amber-50/98 shadow-2xl shadow-primary-200 h-dvh py-16 px-8 gap-4 ${
           openProduct
             ? "translate-x-0"
             : "translate-x-[100dvw] md:translate-x-[80dvw] lg:translate-x-[60dvw] xl:translate-x-[50dvw]"
@@ -24,7 +25,7 @@ export default function ProductDetails({
           onClick={onCloseProduct}
           className="absolute top-4 left-8 text-xl cursor-pointer"
         >
-          X
+          <Close />
         </button>
         {openProduct && (
           <>
