@@ -8,15 +8,6 @@ export interface ButtonProps {
   target?: string;
 }
 
-export interface FeatureCardProps {
-  title: string;
-  description: string;
-}
-
-export interface IconProps {
-  size: string;
-}
-
 export interface SliderButtonProps {
   direction: "left" | "right";
   onClick?: MouseEventHandler;

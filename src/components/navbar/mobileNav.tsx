@@ -11,7 +11,7 @@ export default function MobileNav({
   return (
     <>
       <nav
-        className={`fixed top-0 right-0 w-75 bg-amber-50/80 shadow-2xl shadow-primary-200 h-dvh flex flex-col text-center py-8 px-16 gap-4 ${
+        className={`fixed top-0 right-0 z-150 w-75 bg-amber-50/80 shadow-2xl shadow-primary-200 h-dvh flex flex-col text-center py-8 px-16 gap-4 ${
           isMobileNavOpen ? "translate-x-0" : "translate-x-75"
         } transition-all duration-200`}
       >
