@@ -3,7 +3,8 @@ import React, { MouseEventHandler } from "react";
 export interface ButtonProps {
   href: string;
   children: React.ReactNode;
-  type: "primary" | "secondary";
+  variant: "primary" | "secondary";
+  onClick?: React.MouseEventHandler;
   className?: string;
   target?: string;
 }

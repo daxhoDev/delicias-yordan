@@ -30,7 +30,7 @@ export default function ProductCard({
           {product.title}
         </h3>
         <Button
-          type="primary"
+          variant="primary"
           href="https://wa.me/qr/AB2GJHKE3LR5L1"
           target="_blank"
         >

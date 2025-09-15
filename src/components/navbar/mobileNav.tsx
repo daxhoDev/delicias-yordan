@@ -3,11 +3,15 @@
 import Button from "@/src/components/button";
 import WhatsappIcon from "../icons/whatsapp";
 
+interface Props {
+  isMobileNavOpen: boolean;
+  onToggleMobileNav: React.MouseEventHandler;
+}
+
 export default function MobileNav({
   isMobileNavOpen,
-}: {
-  isMobileNavOpen: boolean;
-}): React.ReactNode {
+  onToggleMobileNav,
+}: Props): React.ReactNode {
   return (
     <>
       <nav
@@ -16,13 +20,13 @@ export default function MobileNav({
         } transition-all duration-200`}
       >
         <Button
-          type="primary"
+          variant="primary"
           href="https://wa.me/qr/AB2GJHKE3LR5L1"
           target="_blank"
         >
           <WhatsappIcon size={"1.5rem"} /> Contáctanos
         </Button>
-        <Button type="secondary" href="/catalog">
+        <Button variant="secondary" href="/catalog" onClick={onToggleMobileNav}>
           Ver catálogo
         </Button>
       </nav>

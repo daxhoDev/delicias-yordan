@@ -15,7 +15,7 @@ export default function ProductsSection(): React.ReactNode {
             item.featured && <ProductCard key={item.title} product={item} />
         )}
       </div>
-      <Button className="z-10" type="secondary" href="/catalog">
+      <Button className="z-10" variant="secondary" href="/catalog">
         Ver catálogo
       </Button>
     </section>

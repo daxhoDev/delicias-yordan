@@ -51,20 +51,23 @@ export default function Navbar() {
         }`}
       >
         <Button
-          type="primary"
+          variant="primary"
           href="https://wa.me/qr/AB2GJHKE3LR5L1"
           target="_blank"
         >
           <WhatsappIcon size="1.5rem" /> Contáctanos
         </Button>
-        <Button type="secondary" href="/catalog">
+        <Button variant="secondary" href="/catalog">
           Ver catálogo
         </Button>
       </div>
       {showMobileNav && (
         <>
           <Backdrop onClick={handleToggleMobileNav} />
-          <MobileNav isMobileNavOpen={isMobileNavOpen} />
+          <MobileNav
+            isMobileNavOpen={isMobileNavOpen}
+            onToggleMobileNav={handleToggleMobileNav}
+          />
         </>
       )}
     </header>

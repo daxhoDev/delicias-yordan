@@ -25,13 +25,13 @@ export default function Hero(): React.ReactNode {
       </div>
       <div className="z-10 flex flex-col md:flex-row gap-4 md:gap-12">
         <Button
-          type="primary"
+          variant="primary"
           href="https://wa.me/qr/AB2GJHKE3LR5L1"
           target="_blank"
         >
           <WhatsappIcon size={"1.5rem"} /> Contáctanos
         </Button>
-        <Button type="secondary" href="/catalog">
+        <Button variant="secondary" href="/catalog">
           Ver Ofertas
         </Button>
       </div>
