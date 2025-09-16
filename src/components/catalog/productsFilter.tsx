@@ -17,7 +17,7 @@ export default function ProductsFilters({
   return (
     <form
       className="w-8/10 max-w-160 relative grid grid-rows-2 grid-cols-2 gap-4 text-amber-950"
-      onSubmit={(e) => e.preventDefault}
+      onSubmit={(e) => e.preventDefault()}
     >
       <input
         value={searchQuery}
