@@ -26,7 +26,7 @@ export default function ProductsContainer({
   function handleToggleProduct(product: Product | null): void {
     if (showProduct && openProduct) {
       setOpenProduct(null);
-      setTimeout(() => setShowProduct(false), 200);
+      setTimeout(() => setShowProduct(false), 300);
     } else {
       setShowProduct(true);
       setTimeout(() => setOpenProduct(product), 0);

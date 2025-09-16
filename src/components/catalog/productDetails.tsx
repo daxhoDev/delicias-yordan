@@ -19,7 +19,7 @@ export default function ProductDetails({
           openProduct
             ? "translate-x-0"
             : "translate-x-[100dvw] md:translate-x-[80dvw] lg:translate-x-[60dvw] xl:translate-x-[50dvw]"
-        } transition-all duration-200`}
+        } transition-all duration-300`}
       >
         <button
           onClick={onCloseProduct}

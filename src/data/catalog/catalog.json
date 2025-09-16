@@ -1275,6 +1275,7 @@
   },
   {
     "title": "Bandeja de entrantes",
+    "image": "/products/bandeja-entrantes.jpg",
     "category": "Entrantes",
     "price": "4 000.00 cup",
     "lists": [
@@ -1304,6 +1305,7 @@
   },
   {
     "title": "Mini Donas",
+    "image": "/products/mini-donas.jpg",
     "category": "Dulces",
     "price": "30.00 cup"
   },
@@ -1370,6 +1372,7 @@
   },
   {
     "title": "Arroz imperial con cerdo, jamón y vegetales salteados",
+    "image": "/products/arroz-imperial-cerdo-jamon.jpg",
     "category": "Arroz Imperial",
     "price": "3 500.00 cup",
     "extras": [
@@ -1410,6 +1413,7 @@
   },
   {
     "title": "Arroz imperial con cerdo, pollo, jamón y vegetales salteados",
+    "image": "/products/arroz-imperial-cerdo-pollo-jamon.jpg",
     "category": "Arroz Imperial",
     "price": "3 800.00 cup",
     "extras": [
@@ -1490,6 +1494,7 @@
   },
   {
     "title": "Arroz imperial Plus",
+    "image": "/products/arroz-imperial-plus.jpg",
     "category": "Arroz Imperial",
     "featured": true,
     "description": "Este arroz imperial contiene cerdo, pollo, camarón, jamón, queso y vegetales salteados",
@@ -1610,6 +1615,7 @@
   },
   {
     "title": "Ensalada fría especial",
+    "image": "/products/ensalada-fria-especial.jpg",
     "description": "Esta ensalada fría está hecha con queso gouda y jamón bravo",
     "category": "Ensalada Fría",
     "price": "Precio variable",
@@ -1647,7 +1653,7 @@
   },
   {
     "title": "Buffet de cumpleaños",
-    "category": "Buffet",
+    "category": "Combos",
     "description": "Estos buffets incluyen pastelitos, cangrejitos, mantecados, empanadillas, bolitas de queso y croquetas",
     "price": "Precio variable",
     "lists": [
@@ -1691,6 +1697,7 @@
   },
   {
     "title": "Cake mediano redondo",
+    "image": "/products/cake-mediano-redondo.jpg",
     "category": "Cakes",
     "price": "3 500.00 cup",
     "extras": [
@@ -1749,6 +1756,7 @@
   },
   {
     "title": "Cake de dos pisos, panetela mediana y pequeña (30 rac.)",
+    "image": "/products/cake-dos-pisos-mediana-pequeña.jpg",
     "category": "Cakes",
     "price": "5 500.00 cup",
     "extras": [
@@ -1778,6 +1786,7 @@
   },
   {
     "title": "Cake de bandeja completa con media bandeja encima",
+    "image": "/products/cake-bandeja-entera-media-bandeja-encima.jpg",
     "category": "Cakes",
     "price": "18 500.00 cup",
     "extras": [
@@ -1794,6 +1803,7 @@
   },
   {
     "title": "Cake de bandeja entera con un piso redondo encima",
+    "image": "/products/cake-bandeja-entera-piso-redondo.jpg",
     "category": "Cakes",
     "price": "15 500.00 cup",
     "extras": [
@@ -1810,6 +1820,7 @@
   },
   {
     "title": "Cake de bandeja entera",
+    "image": "/products/cake-bandeja-entera.jpg",
     "category": "Cakes",
     "price": "12 500.00 cup",
     "extras": [
