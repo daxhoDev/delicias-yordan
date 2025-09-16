@@ -24,7 +24,13 @@ export default function ProductCard({
           OFERTA
         </span>
       )}
-      <Image src={pizza} alt="pizza" className="rounded-lg" />
+      <Image
+        src={product.image || pizza}
+        width={960}
+        height={960}
+        alt="pizza"
+        className="shadow-inner rounded-lg w-full aspect-square object-center object-cover"
+      />
       <div className="flex flex-col justify-between h-full gap-8 px-4 pb-6">
         <h3 className="text-lg sm:text-xl text-center font-medium text-amber-900">
           {product.title}

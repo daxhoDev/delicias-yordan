@@ -11,6 +11,7 @@ export interface List {
 
 export interface Product {
   title: string;
+  image?: string;
   featured?: boolean;
   category: string;
   description?: string;

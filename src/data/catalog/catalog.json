@@ -1,6 +1,7 @@
 [
   {
     "title": "Cenas de cerdo asado",
+    "image": "/products/cena-cerdo-asado.jpg",
     "featured": true,
     "category": "Cenas",
     "price": "Precio variable",
@@ -31,6 +32,7 @@
   },
   {
     "title": "Cenas de pollo asado",
+    "image": "/products/cena-pollo-asado.jpg",
     "category": "Cenas",
     "description": "Cena de pollo asado que incluye arroz salteado con jamón y vegetales, viandas y ensaladas mixtas",
     "price": "Precio variable",
@@ -1144,6 +1146,7 @@
   },
   {
     "title": "Pizza Familiar Napolitana",
+    "image": "/products/pizza-familiar-napolitana.jpg",
     "category": "Pizzas Familiares",
     "price": "2 400.00 cup",
     "extras": [
@@ -1570,6 +1573,7 @@
   },
   {
     "title": "Ensalada Fría",
+    "image": "/products/ensalada-fria.jpg",
     "category": "Ensalada Fría",
     "price": "Precio variable",
     "lists": [
