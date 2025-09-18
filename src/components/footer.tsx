@@ -3,7 +3,7 @@ import brandLogoWhite from "@/public/brand-logo-white.png";
 
 export default function Footer(): React.ReactNode {
   return (
-    <footer className="bg-grey-900 flex flex-col md:flex-row justify-center gap-12 items-center px-16 py-32">
+    <footer className="bg-grey-900 flex z-10 flex-col md:flex-row justify-center gap-12 items-center px-16 py-32">
       <p className="text-grey-100 font-bold">
         <span className="text-grey-500">2025</span>DELICIAS YORDAN
       </p>

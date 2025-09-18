@@ -37,7 +37,7 @@ export default function ProductDetails({
                 {openProduct?.price}
               </span>
               {openProduct.description && (
-                <p className="italic">"{openProduct.description}"</p>
+                <p className="italic mt-8">"{openProduct.description}"</p>
               )}
             </div>
             {openProduct.lists &&
