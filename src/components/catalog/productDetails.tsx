@@ -4,6 +4,8 @@ import { Product } from "@/src/types/dataTypes";
 import ProductList from "./productList";
 import ProductElement from "./productElement";
 import Close from "../icons/close";
+import Button from "../button";
+import WhatsappIcon from "../icons/whatsapp";
 
 export default function ProductDetails({
   openProduct,
@@ -34,7 +36,7 @@ export default function ProductDetails({
                 {openProduct.title}
               </h2>
               <span className="text-lg font-bold text-amber-700">
-                {openProduct?.price}
+                {openProduct.price}
               </span>
               {openProduct.description && (
                 <p className="italic mt-8">"{openProduct.description}"</p>
@@ -57,8 +59,20 @@ export default function ProductDetails({
             {openProduct.important && (
               <p className="text-amber-600 mt-16">* {openProduct.important}</p>
             )}
+            {!openProduct.lists &&
+              !openProduct.extras &&
+              !openProduct.important && (
+                <p>
+                  No hay más información para mostrar aquí. Anímate a
+                  escribirnos!!
+                </p>
+              )}
           </>
         )}
+        <Button variant="primary" href="https://wa.me/qr/AB2GJHKE3LR5L1">
+          <WhatsappIcon />
+          Contáctanos
+        </Button>
       </aside>
     </>
   );

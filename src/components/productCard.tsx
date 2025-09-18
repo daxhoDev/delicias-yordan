@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pizza from "@/public/pizza.jpg";
+import logo from "@/public/brand-logo.png";
 import Button from "./button";
 import Whatsapp from "@/src/components/icons/whatsapp";
 import { Product } from "../types/dataTypes";
@@ -25,11 +25,13 @@ export default function ProductCard({
         </span>
       )}
       <Image
-        src={product.image || pizza}
+        src={product.image || logo}
         width={960}
         height={960}
-        alt="pizza"
-        className="shadow-inner rounded-lg w-full aspect-square object-center object-cover"
+        alt={product.title}
+        className={`${
+          !product.image ? "p-24 drop-shadow-xl drop-shadow-amber-300" : ""
+        } rounded-lg w-full aspect-square object-center object-cover`}
       />
       <div className="flex flex-col justify-between h-full gap-8 px-4 pb-6">
         <h3 className="text-lg sm:text-xl text-center font-medium text-amber-900">
