@@ -4,6 +4,7 @@ import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import TestimonialCard from "@/src/components/landing/testimonialCard";
 import SliderButton from "@/src/components/landing/sliderButton";
+import testimonials from "@/src/data/testimonials.json";
 
 export default function TestimonialsSection(): React.ReactNode {
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -12,7 +13,6 @@ export default function TestimonialsSection(): React.ReactNode {
     },
     loop: true,
     slides: {
-      number: 3,
       perView: 1.05,
       spacing: 32,
       origin: "center",
@@ -25,9 +25,11 @@ export default function TestimonialsSection(): React.ReactNode {
         Qué opinan nuestros clientes
       </h2>
       <div className="keen-slider max-w-180" ref={sliderRef}>
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
+        {testimonials.map((testimonial) => (
+          <TestimonialCard name={testimonial.name}>
+            {testimonial.testimonial}
+          </TestimonialCard>
+        ))}
       </div>
       <div className="flex justify-center items-center gap-4">
         <SliderButton

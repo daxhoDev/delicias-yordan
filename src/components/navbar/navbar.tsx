@@ -34,7 +34,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="fixed top-0 z-50 flex w-dvw items-center justify-between bg-amber-50/40 px-10 py-2 whitespace-nowrap backdrop-blur-sm transition-all">
+    <header className="fixed top-0 z-100 flex w-dvw items-center justify-between bg-amber-50/40 px-10 py-2 whitespace-nowrap backdrop-blur-sm transition-all">
       <Link href={"/"}>
         <Brand />
       </Link>

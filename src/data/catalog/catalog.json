@@ -67,7 +67,7 @@
             "quantity": "1 unidad"
           },
           {
-            "name": "pizza familiar de jamón y queso gouda",
+            "name": "Pizza familiar de jamón y queso gouda",
             "quantity": "1 unidad"
           },
           {
@@ -79,11 +79,11 @@
             "quantity": "50 unidades"
           },
           {
-            "name": "caja de cerveza",
+            "name": "Caja de cerveza",
             "quantity": "1 caja"
           },
           {
-            "name": "caja de malta",
+            "name": "Caja de malta",
             "quantity": "1 caja"
           }
         ]
@@ -408,7 +408,7 @@
         "header": "Incluye:",
         "elements": [
           {
-            "name": "cupcakes con merengue",
+            "name": "Cupcakes con merengue",
             "quantity": "15 unidades"
           },
           {
@@ -442,7 +442,7 @@
         "price": "16.00 cup"
       },
       {
-        "name": "cupcakes",
+        "name": "Cupcakes",
         "quantity": "Cada uno",
         "price": "150.00 cup"
       }
@@ -458,7 +458,7 @@
         "header": "Incluye:",
         "elements": [
           {
-            "name": "cupcakes con merengue",
+            "name": "Cupcakes con merengue",
             "quantity": "20 unidades"
           },
           {
@@ -505,7 +505,7 @@
         "price": "30.00 cup"
       },
       {
-        "name": "cupcakes",
+        "name": "Cupcakes",
         "quantity": "Cada uno",
         "price": "150.00 cup"
       }
@@ -729,7 +729,7 @@
             "quantity": "30 raciones"
           },
           {
-            "name": "cupcakes con merengue personalizados",
+            "name": "Cupcakes con merengue personalizados",
             "quantity": "30 unidades"
           },
           {
@@ -788,7 +788,7 @@
         "price": "30.00 cup"
       },
       {
-        "name": "cupcakes personalizados",
+        "name": "Cupcakes personalizados",
         "quantity": "Cada uno",
         "price": "170.00 cup"
       },
@@ -1054,7 +1054,7 @@
         "price": "30.00 cup"
       },
       {
-        "name": "cupcakes",
+        "name": "Cupcakes",
         "quantity": "Cada uno",
         "price": "150.00 cup"
       }
@@ -1154,7 +1154,7 @@
         "price": "30.00 cup"
       },
       {
-        "name": "cupcakes",
+        "name": "Cupcakes",
         "quantity": "Cada uno",
         "price": "150.00 cup"
       }
@@ -1261,6 +1261,7 @@
   },
   {
     "title": "Pizza Familiar de Camarones",
+    "image": "/products/pizza-familiar-camarones.jpg",
     "category": "Pizzas Familiares",
     "price": "3 350.00 cup",
     "extras": [
@@ -1329,6 +1330,7 @@
   },
   {
     "title": "Cupcakes",
+    "image": "/products/cupcake.jpg",
     "category": "Dulces",
     "price": "150.00 cup"
   },
@@ -1352,6 +1354,7 @@
   },
   {
     "title": "Flan de leche condensada",
+    "image": "/products/flan.jpg",
     "category": "Dulces",
     "price": "1 700.00 cup"
   },
@@ -1367,11 +1370,13 @@
   },
   {
     "title": "Tacos de cerdo, queso y vegetales salteados (3 unid.)",
+    "image": "/products/taco-cerdo.jpg",
     "category": "Entrantes",
     "price": "800.00 cup"
   },
   {
     "title": "Tacos de jamón, queso y vegetales salteados (3 unid.)",
+    "image": "/products/taco-jamon.jpg",
     "category": "Entrantes",
     "price": "800.00 cup"
   },
@@ -1796,6 +1801,7 @@
   },
   {
     "title": "Cake Bombón",
+    "image": "/products/cake-bombon.jpg",
     "description": "Cubierto completamente de chocolate",
     "category": "Cakes",
     "price": "4 000.00 cup",
