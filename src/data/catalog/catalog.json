@@ -54,7 +54,6 @@
   },
   {
     "title": "Combo familiar",
-    "featured": true,
     "image": "/products/combo.jpg",
     "category": "Combos",
     "price": "30 500.00 cup",
@@ -115,7 +114,7 @@
   },
   {
     "title": "Combo especial",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-3.jpg",
     "category": "Combos",
     "price": "2 950.00 cup",
     "lists": [
@@ -127,7 +126,7 @@
             "quantity": "2 litros"
           },
           {
-            "name": "tartaletas",
+            "name": "Tartaletas",
             "quantity": "15 unidades"
           },
           {
@@ -135,11 +134,11 @@
             "quantity": "15 unidades"
           },
           {
-            "name": "mantecados",
+            "name": "Mantecados",
             "quantity": "15 unidades"
           },
           {
-            "name": "empanadillas",
+            "name": "Empanadillas",
             "quantity": "15 unidades"
           },
           {
@@ -174,7 +173,7 @@
             "quantity": "50 unidades"
           },
           {
-            "name": "empanadillas",
+            "name": "Empanadillas",
             "quantity": "50 unidades"
           },
           {
@@ -182,15 +181,15 @@
             "quantity": "50 unidades"
           },
           {
-            "name": "pastelitos",
+            "name": "Pastelitos",
             "quantity": "50 unidades"
           },
           {
-            "name": "cangrejitos",
+            "name": "Cangrejitos",
             "quantity": "50 unidades"
           },
           {
-            "name": "mantecados",
+            "name": "Mantecados",
             "quantity": "50 unidades"
           }
         ]
@@ -207,7 +206,7 @@
   },
   {
     "title": "Combo #02",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-2.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -222,11 +221,11 @@
             "quantity": "30 unidades"
           },
           {
-            "name": "empanadillas",
+            "name": "Empanadillas",
             "quantity": "30 unidades"
           },
           {
-            "name": "pastelitos",
+            "name": "Pastelitos",
             "quantity": "30 unidades"
           },
           {
@@ -234,7 +233,7 @@
             "quantity": "30 unidades"
           },
           {
-            "name": "mantecados",
+            "name": "Mantecados",
             "quantity": "30 unidades"
           }
         ]
@@ -261,11 +260,11 @@
             "quantity": "20 unidades"
           },
           {
-            "name": "empanadillas",
+            "name": "Empanadillas",
             "quantity": "20 unidades"
           },
           {
-            "name": "pastelitos",
+            "name": "Pastelitos",
             "quantity": "20 unidades"
           },
           {
@@ -273,7 +272,7 @@
             "quantity": "20 unidades"
           },
           {
-            "name": "mantecados",
+            "name": "Mantecados",
             "quantity": "20 unidades"
           }
         ]
@@ -289,7 +288,7 @@
   },
   {
     "title": "Combo #04",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-2.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -325,7 +324,7 @@
   },
   {
     "title": "Combo #05",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-3.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -401,7 +400,7 @@
   },
   {
     "title": "Combo #07",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-2.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -451,7 +450,7 @@
   },
   {
     "title": "Combo #08",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-cupcake.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -639,7 +638,7 @@
   },
   {
     "title": "Combo #11",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-caramelos.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -714,7 +713,7 @@
   },
   {
     "title": "Combo #12",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-caramelos.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -802,7 +801,7 @@
   },
   {
     "title": "Combo #13",
-    "image": "/products/combo.jpg",
+    "image": "/products/combo-caramelos.jpg",
     "category": "Combos",
     "lists": [
       {
@@ -877,6 +876,7 @@
   },
   {
     "title": "Combo de comida cruda",
+    "image": "/products/combo-comida-cruda.jpg",
     "category": "Combos por Zelle",
     "lists": [
       {
@@ -1018,15 +1018,15 @@
             "quantity": "50 unidades"
           },
           {
-            "name": "empanadillas",
+            "name": "Empanadillas",
             "quantity": "50 unidades"
           },
           {
-            "name": "mantecados",
+            "name": "Mantecados",
             "quantity": "50 unidades"
           },
           {
-            "name": "pastelitos",
+            "name": "Pastelitos",
             "quantity": "50 unidades"
           },
           {
@@ -1034,7 +1034,7 @@
             "quantity": "50 unidades"
           },
           {
-            "name": "tartaletas",
+            "name": "Tartaletas",
             "quantity": "50 unidades"
           }
         ]
@@ -1093,15 +1093,15 @@
             "quantity": "50 unidades"
           },
           {
-            "name": "pastelitos",
+            "name": "Pastelitos",
             "quantity": "50 unidades"
           },
           {
-            "name": "mantecados",
+            "name": "Mantecados",
             "quantity": "50 unidades"
           },
           {
-            "name": "empanadillas",
+            "name": "Empanadillas",
             "quantity": "50 unidades"
           },
           {
@@ -1113,7 +1113,7 @@
             "quantity": "50 unidades"
           },
           {
-            "name": "tartaletas",
+            "name": "Tartaletas",
             "quantity": "50 unidades"
           }
         ]
@@ -1294,6 +1294,7 @@
   },
   {
     "title": "Bandeja de entrantes",
+    "featured": true,
     "image": "/products/bandeja-entrantes.jpg",
     "category": "Entrantes",
     "price": "4 000.00 cup",
@@ -1360,11 +1361,13 @@
   },
   {
     "title": "Croquetas de jamón y queso con salsa rosa (10 unid.)",
+    "image": "/products/croquetas.jpg",
     "category": "Entrantes",
     "price": "500.00 cup"
   },
   {
     "title": "Bolitas de queso con dulce de piña en almíbar (10 unid.)",
+    "image": "/products/bolitas-queso.jpg",
     "category": "Entrantes",
     "price": "500.00 cup"
   },
@@ -1479,6 +1482,7 @@
   },
   {
     "title": "Arroz imperial con cerdo, camarón, jamón y vegetales salteados",
+    "image": "/products/arroz-imperial-cerdo-camarones-jamon.jpg",
     "category": "Arroz Imperial",
     "price": "4 900.00 cup",
     "extras": [
@@ -1562,6 +1566,7 @@
   },
   {
     "title": "Arroz imperial marinero",
+    "image": "/products/arroz-imperial-marinero.jpg",
     "category": "Arroz Imperial",
     "description": "Este arroz imperial contiene cangrejo, pescado, camarón, plátano maduro y vegetales salteados",
     "price": "6 500.00 cup",
@@ -1603,6 +1608,7 @@
   },
   {
     "title": "Ensalada Fría",
+    "image": "/products/ensalada-fria.jpg",
     "category": "Ensalada Fría",
     "price": "Precio variable",
     "lists": [

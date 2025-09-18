@@ -26,7 +26,7 @@ export default function TestimonialsSection(): React.ReactNode {
       </h2>
       <div className="keen-slider max-w-180" ref={sliderRef}>
         {testimonials.map((testimonial) => (
-          <TestimonialCard name={testimonial.name}>
+          <TestimonialCard key={testimonial.name} name={testimonial.name}>
             {testimonial.testimonial}
           </TestimonialCard>
         ))}

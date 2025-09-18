@@ -62,7 +62,7 @@ export default function ProductDetails({
             {!openProduct.lists &&
               !openProduct.extras &&
               !openProduct.important && (
-                <p>
+                <p className="py-16">
                   No hay más información para mostrar aquí. Anímate a
                   escribirnos!!
                 </p>

@@ -16,12 +16,12 @@ export default function TestimonialCard({
         "{children}"
       </p>
       <div className="flex gap-4 items-center justify-center">
-        <Image
+        {/* <Image
           className="h-12 w-12 object-center object-cover overflow-hidden rounded-full"
           src={customer}
           alt="cliente"
-        />
-        <h3 className="font-bold text-amber-900">{name}</h3>
+        /> */}
+        <h3 className="font-bold text-amber-900">- {name}</h3>
       </div>
     </article>
   );

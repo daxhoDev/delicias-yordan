@@ -11,7 +11,8 @@ export default function Hero(): React.ReactNode {
         src={brandWhite}
         width={499}
         height={527}
-        loading="lazy"
+        loading="eager"
+        placeholder="blur"
         alt="Logo de Delicias Yordan"
         className="w-18 md:w-30 z-10"
       />
