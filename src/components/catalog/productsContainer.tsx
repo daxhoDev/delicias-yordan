@@ -34,18 +34,20 @@ export default function ProductsContainer({
   }
 
   return (
-    <main className="flex flex-row flex-wrap items-center sm:items-stretch justify-center gap-x-16 gap-y-24">
-      {catalog.map(
-        (item) =>
-          item.title.toLowerCase().includes(search.toLowerCase()) &&
-          (item.category === category || category === "Todo") && (
-            <ProductCard
-              key={item.title}
-              product={item}
-              onToggleProduct={() => handleToggleProduct(item)}
-            />
-          )
-      )}
+    <main className="flex flex-row flex-wrap items-stretch justify-center gap-x-16 gap-y-24">
+      {catalog
+        .sort((a, b) => a.title.localeCompare(b.title))
+        .map(
+          (item) =>
+            item.title.toLowerCase().includes(search.toLowerCase()) &&
+            (item.category === category || category === "Todo") && (
+              <ProductCard
+                key={item.title}
+                product={item}
+                onToggleProduct={() => handleToggleProduct(item)}
+              />
+            )
+        )}
       {showProduct && (
         <>
           <Backdrop onClick={() => handleToggleProduct(openProduct)} />

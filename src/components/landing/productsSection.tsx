@@ -9,11 +9,13 @@ export default function ProductsSection(): React.ReactNode {
       <h2 className="text-amber-200 z-10 text-center text-2xl sm:text-3xl font-bold">
         Nuestras ofertas destacadas
       </h2>
-      <div className="z-10 flex flex-col sm:flex-row flex-wrap gap-y-24 gap-x-16 items-center sm:items-stretch justify-center">
-        {catalog.map(
-          (item) =>
-            item.featured && <ProductCard key={item.title} product={item} />
-        )}
+      <div className="z-10 flex flex-row flex-wrap gap-y-24 gap-x-16 items-stretch justify-center">
+        {catalog
+          .sort((a, b) => a.title.localeCompare(b.title))
+          .map(
+            (item) =>
+              item.featured && <ProductCard key={item.title} product={item} />
+          )}
       </div>
       <Button className="z-10" variant="secondary" href="/catalog">
         Ver catálogo
