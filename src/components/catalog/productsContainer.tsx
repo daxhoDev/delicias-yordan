@@ -34,7 +34,7 @@ export default function ProductsContainer({
   }
 
   return (
-    <main className="flex flex-wrap items-stretch justify-center gap-x-16 gap-y-24 max-w-320">
+    <main className="flex flex-wrap items-stretch justify-center gap-x-16 gap-y-24 w-95/100 max-w-320">
       {catalog
         .sort((a, b) => a.title.localeCompare(b.title))
         .map(
