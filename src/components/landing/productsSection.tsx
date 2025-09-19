@@ -9,7 +9,7 @@ export default function ProductsSection(): React.ReactNode {
       <h2 className="text-amber-200 z-10 text-center text-2xl sm:text-3xl font-bold">
         Nuestras ofertas destacadas
       </h2>
-      <div className="z-10 flex flex-row flex-wrap gap-y-24 gap-x-16 items-stretch justify-center">
+      <div className="z-10 flex flex-row flex-wrap gap-y-24 gap-x-16 items-stretch justify-center w-95/100 max-w-320">
         {catalog
           .sort((a, b) => a.title.localeCompare(b.title))
           .map(
