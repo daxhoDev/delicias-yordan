@@ -12,6 +12,21 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Delicias Yordan | El sabor holguinero",
   description: "Cenas por encargo, dulces y más",
+  keywords: [
+    "comida",
+    "encargo",
+    "delicias",
+    "cakes",
+    "pizzas",
+    "arroz",
+    "carne",
+    "cena",
+    "Holguín",
+    "Cuba",
+    "cumpleaños",
+    "buffet",
+    "combo",
+  ],
 };
 
 export default function RootLayout({
