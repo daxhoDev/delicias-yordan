@@ -1,9 +1,8 @@
 "use client";
 
-import Button from "../button";
+import Button from "@/src/components/button";
 import ProductCard from "@/src/components/productCard";
 import catalog from "@/src/data/catalog/catalog.json";
-import slugify from "@/src/helpers/slugify";
 import { Product } from "@/src/types/dataTypes";
 import { useRouter } from "next/navigation";
 
@@ -11,7 +10,7 @@ export default function ProductsSection(): React.ReactNode {
   const router = useRouter();
 
   function handleToggleProduct(product: Product) {
-    router.push(`catalog?product=${slugify(product.title)}`);
+    router.push(`catalog?product=${product._id.$oid}`);
   }
 
   return (
@@ -27,7 +26,7 @@ export default function ProductsSection(): React.ReactNode {
             (item) =>
               item.featured && (
                 <ProductCard
-                  key={item.title}
+                  key={item._id.$oid}
                   product={item}
                   onToggleProduct={() => handleToggleProduct(item)}
                 />

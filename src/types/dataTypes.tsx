@@ -10,6 +10,7 @@ export interface List {
 }
 
 export interface Product {
+  _id: { $oid: string };
   title: string;
   image?: string;
   featured?: boolean;

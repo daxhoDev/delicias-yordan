@@ -7,7 +7,6 @@ import ProductDetails from "@/src/components/catalog/productDetails";
 import Backdrop from "@/src/components/backdrop";
 import { Product } from "@/src/types/dataTypes";
 import { useRouter, useSearchParams } from "next/navigation";
-import slugify from "@/src/helpers/slugify";
 
 interface Props {
   search: string;
@@ -37,8 +36,7 @@ export default function ProductsContainer({
     } else {
       setShowProduct(true);
       setTimeout(
-        () =>
-          router.push(`?product=${slugify(product?.title)}`, { scroll: false }),
+        () => router.push(`?product=${product?._id.$oid}`, { scroll: false }),
         0
       );
     }
@@ -53,7 +51,7 @@ export default function ProductsContainer({
             item.title.toLowerCase().includes(search.toLowerCase()) &&
             (item.category === category || category === "Todo") && (
               <ProductCard
-                key={item.title}
+                key={item._id.$oid}
                 product={item}
                 onToggleProduct={() => handleToggleProduct(item)}
               />

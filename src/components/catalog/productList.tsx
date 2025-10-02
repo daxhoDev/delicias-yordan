@@ -1,5 +1,5 @@
-import { List, Product } from "@/src/types/dataTypes";
-import ProductElement from "./productElement";
+import { List } from "@/src/types/dataTypes";
+import ProductElement from "@/src/components/catalog/productElement";
 
 export default function ProductList({ list }: { list: List }): React.ReactNode {
   return (

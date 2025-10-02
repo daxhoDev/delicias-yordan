@@ -1,6 +1,3 @@
-import Image from "next/image";
-import customer from "@/public/customer.jpg";
-
 interface Props {
   name: string;
   children: string;

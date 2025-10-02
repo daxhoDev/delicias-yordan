@@ -2,11 +2,11 @@
 
 import Image from "next/image";
 import logo from "@/public/brand-logo.png";
-import Button from "./button";
+import Button from "@/src/components/button";
 import Whatsapp from "@/src/components/icons/whatsapp";
-import { Product } from "../types/dataTypes";
+import { Product } from "@/src/types/dataTypes";
 import { useState } from "react";
-import Spinner from "./icons/spinner";
+import Spinner from "@/src/components/icons/spinner";
 
 export default function ProductCard({
   product,

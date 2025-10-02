@@ -1,14 +1,12 @@
 "use client";
 
-import { Product } from "@/src/types/dataTypes";
-import ProductList from "./productList";
-import ProductElement from "./productElement";
-import Close from "../icons/close";
-import Button from "../button";
-import WhatsappIcon from "../icons/whatsapp";
+import ProductList from "@/src/components/catalog/productList";
+import ProductElement from "@/src/components/catalog/productElement";
+import Close from "@/src/components/icons/close";
+import Button from "@/src/components/button";
+import WhatsappIcon from "@/src/components/icons/whatsapp";
 import { useSearchParams } from "next/navigation";
 import catalog from "@/src/data/catalog/catalog.json";
-import slugify from "@/src/helpers/slugify";
 
 export default function ProductDetails({
   onCloseProduct,
@@ -16,10 +14,8 @@ export default function ProductDetails({
   onCloseProduct: React.MouseEventHandler;
 }): React.ReactNode {
   const searchParams = useSearchParams();
-  const productSlug = searchParams.get("product");
-  const openProduct = catalog.find(
-    (product) => slugify(product.title) === productSlug
-  );
+  const id = searchParams.get("product");
+  const openProduct = catalog.find((product) => product._id.$oid === id);
 
   return (
     <>

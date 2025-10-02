@@ -1,11 +1,11 @@
 "use client";
 
 import { Product } from "@/src/types/dataTypes";
-import ProductList from "./catalog/productList";
-import ProductElement from "./catalog/productElement";
-import Close from "./icons/close";
-import Button from "./button";
-import WhatsappIcon from "./icons/whatsapp";
+import ProductList from "@/src/components/catalog/productList";
+import ProductElement from "@/src/components/catalog/productElement";
+import Close from "@/src/components/icons/close";
+import Button from "@/src/components/button";
+import WhatsappIcon from "@/src/components/icons/whatsapp";
 
 export default function ProductDetails({
   openProduct,

@@ -1,6 +1,14 @@
-import { ButtonProps } from "@/src/types/propTypes";
 import Link from "next/link";
 import React from "react";
+
+interface Props {
+  href: string;
+  children: React.ReactNode;
+  variant: "primary" | "secondary";
+  onClick?: React.MouseEventHandler;
+  className?: string;
+  target?: string;
+}
 
 export default function Button({
   children,
@@ -9,7 +17,7 @@ export default function Button({
   href,
   target,
   onClick,
-}: ButtonProps): React.ReactNode {
+}: Props): React.ReactNode {
   return (
     <Link
       onClick={onClick}

@@ -1,11 +1,16 @@
 import ArrowLeft from "@/src/components/icons/arrowLeft";
 import ArrowRight from "@/src/components/icons/arrowRight";
-import { SliderButtonProps } from "@/src/types/propTypes";
+import { MouseEventHandler } from "react";
+
+interface Props {
+  direction: "left" | "right";
+  onClick?: MouseEventHandler;
+}
 
 export default function SliderButton({
   direction,
   onClick,
-}: SliderButtonProps): React.ReactNode {
+}: Props): React.ReactNode {
   return (
     <button
       className="bg-amber-800 text-amber-200 rounded-full cursor-pointer p-2 shadow-lg hover:scale-95 active:scale-95"
