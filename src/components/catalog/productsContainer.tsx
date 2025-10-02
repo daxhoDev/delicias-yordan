@@ -1,11 +1,13 @@
 "use client";
 
-import { useState, Dispatch, SetStateAction } from "react";
+import { useState, Dispatch, SetStateAction, useEffect } from "react";
 import ProductCard from "@/src/components/productCard";
 import catalog from "@/src/data/catalog/catalog.json";
 import ProductDetails from "@/src/components/catalog/productDetails";
 import Backdrop from "@/src/components/backdrop";
 import { Product } from "@/src/types/dataTypes";
+import { useRouter, useSearchParams } from "next/navigation";
+import slugify from "@/src/helpers/slugify";
 
 interface Props {
   search: string;
@@ -16,20 +18,29 @@ export default function ProductsContainer({
   search,
   category,
 }: Props): React.ReactNode {
-  const [openProduct, setOpenProduct] = useState<Product | null>(null);
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
   const [showProduct, setShowProduct]: [
     boolean,
     Dispatch<SetStateAction<boolean>>
   ] = useState(false);
 
+  useEffect(() => {
+    if (searchParams.get("product")) setShowProduct(true);
+  }, []);
+
   function handleToggleProduct(product: Product | null): void {
-    if (showProduct && openProduct) {
-      setOpenProduct(null);
+    if (showProduct && searchParams.get("product")) {
+      router.push("?", { scroll: false });
       setTimeout(() => setShowProduct(false), 300);
     } else {
       setShowProduct(true);
-      setTimeout(() => setOpenProduct(product), 0);
+      setTimeout(
+        () =>
+          router.push(`?product=${slugify(product?.title)}`, { scroll: false }),
+        0
+      );
     }
   }
 
@@ -50,11 +61,8 @@ export default function ProductsContainer({
         )}
       {showProduct && (
         <>
-          <Backdrop onClick={() => handleToggleProduct(openProduct)} />
-          <ProductDetails
-            openProduct={openProduct}
-            onCloseProduct={() => handleToggleProduct(null)}
-          />
+          <Backdrop onClick={() => handleToggleProduct(null)} />
+          <ProductDetails onCloseProduct={() => handleToggleProduct(null)} />
         </>
       )}
     </main>
