@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/preview.png",
-        width: 1920,
-        height: 1080,
+        width: 1122,
+        height: 705,
         alt: "Delicias Yordan",
       },
     ],
