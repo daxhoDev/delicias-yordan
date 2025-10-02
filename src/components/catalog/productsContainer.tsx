@@ -26,8 +26,9 @@ export default function ProductsContainer({
   ] = useState(false);
 
   useEffect(() => {
-    if (searchParams.get("product")) setShowProduct(true);
-  }, []);
+    if (!searchParams.get("product")) return setShowProduct(false);
+    setShowProduct(true);
+  }, [searchParams]);
 
   function handleToggleProduct(product: Product | null): void {
     if (showProduct && searchParams.get("product")) {
