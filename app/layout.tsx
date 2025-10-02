@@ -10,12 +10,17 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Delicias Yordan | El sabor holguinero",
-  description: "Cenas por encargo, dulces y más",
+  metadataBase: new URL("https://deliciasyordan.com"),
+  title: "Delicias Yordan | Comida en Holguín",
+  description:
+    "Arroz imperial, entrantes, cenas de cerdo asado, buffets de cumpleaños y más",
   keywords: [
+    "comida Holguín",
+    "arroz imperial",
+    "catering",
+    "cerdo asado",
     "comida",
-    "encargo",
-    "delicias",
+    "comida por encargo",
     "cakes",
     "pizzas",
     "arroz",
@@ -27,6 +32,20 @@ export const metadata: Metadata = {
     "buffet",
     "combo",
   ],
+  openGraph: {
+    title: "Delicias Yordan | Comida en Holguín",
+    siteName: "Delicias Yordan",
+    description:
+      "Arroz imperial, entrantes, cenas de cerdo asado, buffets de cumpleaños y más",
+    images: [
+      {
+        url: "@/public/preview.png",
+        width: 1920,
+        height: 1080,
+        alt: "Delicias Yordan",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
