@@ -31,7 +31,7 @@ export default function ProductsContainer({
       return;
     }
     setShowProduct(true);
-  }, []);
+  }, [productId]);
 
   function handleToggleProduct(product: Product | null): void {
     if (showProduct) {
