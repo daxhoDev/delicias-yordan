@@ -35,6 +35,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Delicias Yordan | Comida en Holguín",
     siteName: "Delicias Yordan",
+    type: "website",
+    url: "https://deliciasyordan.com",
     description:
       "Arroz imperial, entrantes, cenas de cerdo asado, buffets de cumpleaños y más",
     images: [
