@@ -13,9 +13,8 @@ export default function ProductDetails({
 }: {
   onCloseProduct: React.MouseEventHandler;
 }): React.ReactNode {
-  const searchParams = useSearchParams();
-  const id = searchParams.get("product");
-  const openProduct = catalog.find((product) => product._id.$oid === id);
+  const productId = useSearchParams().get("product");
+  const openProduct = catalog.find((product) => product._id.$oid === productId);
 
   return (
     <>

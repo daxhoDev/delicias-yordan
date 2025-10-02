@@ -18,7 +18,7 @@ export default function ProductsContainer({
   category,
 }: Props): React.ReactNode {
   const router = useRouter();
-  const searchParams = useSearchParams();
+  const productId = useSearchParams().get("product");
 
   const [showProduct, setShowProduct]: [
     boolean,
@@ -26,12 +26,15 @@ export default function ProductsContainer({
   ] = useState(false);
 
   useEffect(() => {
-    if (!searchParams.get("product")) return setShowProduct(false);
+    if (!productId) {
+      setTimeout(() => setShowProduct(false), 300);
+      return;
+    }
     setShowProduct(true);
-  }, [searchParams]);
+  }, []);
 
   function handleToggleProduct(product: Product | null): void {
-    if (showProduct && searchParams.get("product")) {
+    if (showProduct) {
       router.push("?", { scroll: false });
       setTimeout(() => setShowProduct(false), 300);
     } else {
