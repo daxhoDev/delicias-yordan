@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Arroz imperial, entrantes, cenas de cerdo asado, buffets de cumpleaños y más",
     images: [
       {
-        url: "/preview.png",
+        url: "https://deliciasyordan.com/preview.png",
         width: 1122,
         height: 705,
         alt: "Delicias Yordan",
